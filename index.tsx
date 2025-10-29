@@ -103,6 +103,58 @@ const octoberData = {
     ]
 };
 
+// Data based on user screenshots to restore state for November 2025
+const novemberData = {
+    incomes: [
+        { id: "inc_nov_1", description: 'SALARIO MARCELLY', amount: 3349.92, paid: true },
+        { id: "inc_nov_2", description: 'SALARIO ANDRE', amount: 3349.92, paid: true },
+        { id: "inc_nov_3", description: 'MUMBUCA MARCELLY', amount: 650.00, paid: true },
+        { id: "inc_nov_4", description: 'MUMBUCA ANDRE', amount: 650.00, paid: true }
+    ],
+    expenses: [
+        // Fixed Expenses
+        { id: "exp_nov_1", description: "ALUGUEL", amount: 1300.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-10', paidDate: '2025-11-01' },
+        { id: "exp_nov_2", description: "CONTA DA VIVO - ANDRÉ", amount: 70.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-01' },
+        { id: "exp_nov_3", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (SOFISA)", amount: 1000.00, current: 2, total: 5, type: "fixed", category: "investimento", paid: true, cyclic: false, dueDate: '2025-11-05', paidDate: '2025-11-01' },
+        { id: "exp_nov_4", description: "SEGURO DO CARRO (OUTUBRO)", amount: 143.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: true, cyclic: true, dueDate: '2025-11-22', paidDate: '2025-11-01' },
+        { id: "exp_nov_5", description: "CONTA DA CLARO", amount: 80.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-05' },
+        { id: "exp_nov_6", description: "ABASTECIMENTO MENSAL", amount: 400.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: true, cyclic: true, dueDate: '2025-11-05', paidDate: '2025-11-10' },
+        { id: "exp_nov_7", description: "CONTA DA VIVO - MARCELLY", amount: 69.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-10' },
+        { id: "exp_nov_8", description: "INTERNET DE CASA", amount: 120.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-18', paidDate: '2025-11-10' },
+        { id: "exp_nov_9", description: "REMÉDIOS DO ANDRÉ", amount: 400.00, current: 10, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-11-05', paidDate: '2025-11-10' },
+        { id: "exp_nov_10", description: "PSICÓLOGA DA MARCELLY", amount: 280.00, current: 10, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-11-10', paidDate: '2025-11-10' },
+        { id: "exp_nov_11", description: "RENEGOCIACÃO DO CARREFOUR (MARCIA BRITO)", amount: 250.00, current: 2, total: 12, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-28' },
+        { id: "exp_nov_12", description: "APPAI DA MARCELLY", amount: 110.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-15' },
+        { id: "exp_nov_13", description: "APPAI DO ANDRÉ", amount: 129.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-20' },
+        { id: "exp_nov_14", description: "CIDADANIA PORTUGUESA", amount: 140.00, current: 13, total: 36, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-20' },
+        { id: "exp_nov_15", description: "INTERMÉDICA DO ANDRÉ", amount: 123.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: true, dueDate: '2025-11-15' },
+        { id: "exp_nov_16", description: "EMPRÉSTIMO PARA ACABAR DE PASSAR ABRIL (MARCIA BRITO)", amount: 220.00, current: 6, total: 6, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-25' },
+        // Variable Expenses
+        { id: "exp_nov_17", description: "FATURA DO CARTÃO DO ANDRÉ", amount: 104.00, current: 10, total: 12, type: "variable", category: "outros", paid: true, cyclic: false, dueDate: '2025-11-20', paidDate: '2025-11-01' },
+        { id: "exp_nov_18", description: "FATURA CARTÃO MARCELLY", amount: 100.00, current: 10, total: 12, type: "variable", category: "outros", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-11-01' },
+        { id: "exp_nov_19", description: "PARCELAMENTO DO ITAÚ - ANDRÉ", amount: 153.00, current: 3, total: 3, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-11-01' },
+        { id: "exp_nov_20", description: "PEÇAS DO CARRO - CONSERTO DE DEZEMBRO (MARCIA BRITO)", amount: 67.70, current: 10, total: 10, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
+        { id: "exp_nov_21", description: "MÃO DE OBRA DO DAVI (MARCIA BRITO)", amount: 108.33, current: 3, total: 3, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
+        { id: "exp_nov_22", description: "PEÇA DO CARRO (MARCIA BRITO)", amount: 45.00, current: 3, total: 3, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
+        { id: "exp_nov_23", description: "MULTAS (MARCIA BRITO)", amount: 260.00, current: 2, total: 4, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-30', paidDate: '2025-11-12' },
+        { id: "exp_nov_24", description: "CONSERTO DO CARRO COM PEÇAS DE OUTUBRO (MARCIA BRITO)", amount: 361.75, current: 1, total: 4, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
+        { id: "exp_nov_25", description: "EMPRÉSTIMO DA TIA CÉLIA", amount: 400.00, current: 8, total: 10, type: "variable", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-30' },
+    ],
+    shoppingItems: [],
+    goals: [
+        { id: "goal_nov_1", category: "compras", amount: 900 },
+        { id: "goal_nov_2", category: "transporte", amount: 400 },
+        { id: "goal_nov_3", category: "investimento", amount: 3000 },
+        { id: "goal_nov_4", category: "moradia", amount: 2200 },
+        { id: "goal_nov_5", category: "saude", amount: 1200 },
+        { id: "goal_nov_6", category: "dividas", amount: 1500 }
+    ],
+    bankAccounts: [
+        { id: "acc_nov_1", name: "Conta Principal", balance: 0.00 },
+        { id: "acc_nov_2", name: "Poupança", balance: 0.00 }
+    ]
+};
+
 // =================================================================================
 // MOCK FIREBASE - Refatorado para simular listeners em tempo real (onSnapshot)
 // =================================================================================
@@ -237,10 +289,8 @@ const mockFirebase = {
 
 // DECOUPLED INITIALIZATION: Step 2 - Populate data after object creation
 mockFirebase.firestore.data = JSON.parse(localStorage.getItem('firestoreMock')) || {
-    // **DATA RESTORED**: Pre-seeding the data here ensures it's always available on a fresh start.
-    'families/bispo-brito/months/2025-10': {
-        data: octoberData
-    }
+    'families/bispo-brito/months/2025-10': { data: octoberData },
+    'families/bispo-brito/months/2025-11': { data: novemberData }
 };
 
 
@@ -1719,6 +1769,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             } catch (e) {
                 console.error("Erro ao processar evento de storage:", e);
             }
+        }
+    });
+
+    // Listener para forçar a sincronização quando a aba/app se torna visível
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible' && currentUser) {
+            console.log('[Sync] App became visible. Forcing data reload to sync.');
+            loadData();
         }
     });
 
