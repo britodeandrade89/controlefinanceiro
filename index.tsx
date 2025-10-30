@@ -16,7 +16,7 @@ const ICONS = {
     shopping: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>`,
     calendar: `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>`,
     info: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>`,
-    aiAnalysis: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-1.2 0-2.4.6-3 1.7A3.6 3.6 0 0 0 8.3 9c.5 1.1 1.4 2 2.7 2s2.2-.9 2.7-2c.1-.4.2-.8.3-1.3.6-1.1 0-2.3-1-3.1-.3-.2-.6-.3-1-.3z"></path><path d="M12 21c-1.2 0-2.4-.6-3-1.7A3.6 3.6 0 0 1 8.3 15c.5-1.1 1.4-2 2.7-2s2.2.9 2.7 2c.1.4.2.8.3 1.3.6 1.1 0 2.3-1 3.1-.3-.2-.6-.3-1 .3z"></path><path d="M3 12c0-1.2.6-2.4 1.7-3A3.6 3.6 0 0 1 9 8.3c1.1.5 2 1.4 2 2.7s-.9 2.2-2 2.7c-.4.1-.8.2-1.3.3-1.1.6-2.3 0-3.1-1-.2-.3-.3-.6-.3-1z"></path><path d="M21 12c0-1.2-.6-2.4-1.7-3A3.6 3.6 0 0 0 15 8.3c-1.1.5-2 1.4-2 2.7s.9 2.2 2 2.7c.4.1.8.2 1.3.3 1.1.6 2.3 0 3.1-1 .2-.3.3-.6-.3-1z"></path></svg>`,
+    aiAnalysis: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-1.2 0-2.4.6-3 1.7A3.6 3.6 0 0 0 8.3 9c.5 1.1 1.4 2 2.7 2s2.2-.9 2.7-2c.1-.4.2-.8.3-1.3.6-1.1 0-2.3-1-3.1-.3-.2-.6-.3-1-.3z"></path><path d="M12 21c-1.2 0-2.4-.6-3-1.7A3.6 3.6 0 0 1 8.3 15c.5-1.1 1.4-2 2.7-2s2.2.9 2.7 2c.1.4.2.8.3 1.3.6 1.1 0 2.3-1 3.1-.3-.2-.6-.3-1 .3z"></path><path d="M3 12c0-1.2.6-2.4 1.7-3A3.6 3.6 0 0 1 9 8.3c1.1.5 2 1.4 2 2.7s-.9 2.2-2 2.7c-.4.1-.8.2-1.3.3-1.1.6-2.3 0-3.1-1 .2-.3-.3-.6-.3-1z"></path><path d="M21 12c0-1.2-.6-2.4-1.7-3A3.6 3.6 0 0 0 15 8.3c-1.1.5-2 1.4-2 2.7s.9 2.2 2 2.7c.4.1.8.2 1.3.3 1.1.6 2.3 0-3.1-1 .2-.3.3-.6-.3-1z"></path></svg>`,
     lightbulb: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.09 16.05a2.41 2.41 0 0 1-2.41-2.41V10a4.69 4.69 0 0 0-9.38 0v3.64a2.41 2.41 0 0 1-2.41 2.41"></path><path d="M8.5 16.05V18a1.5 1.5 0 0 0 3 0v-1.95"></path><path d="M15.09 16.05a2.41 2.41 0 0 0 2.41-2.41V10a4.69 4.69 0 0 1 9.38 0v3.64a2.41 2.41 0 0 0 2.41 2.41"></path><path d="M17.5 16.05V18a1.5 1.5 0 0 1-3 0v-1.95"></path></svg>`,
     close: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`,
     goal: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>`,
@@ -27,288 +27,112 @@ const SPENDING_CATEGORIES = {
     moradia: { name: 'Moradia', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>` },
     alimentacao: { name: 'Alimentação', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>`},
     transporte: { name: 'Transporte', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1 .4-1 1v1"></path><path d="M14 9H4.5a2.5 2.5 0 0 0 0 5H14a2.5 2.5 0 0 0 0-5z"></path><path d="M5 15h14"></path><circle cx="7" cy="19" r="2"></circle><circle cx="17" cy="19" r="2"></circle></svg>` },
+    abastecimento_mumbuca: { name: 'Abastecimento com Mumbuca', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1 .4-1 1v1"></path><path d="M14 9H4.5a2.5 2.5 0 0 0 0 5H14a2.5 2.5 0 0 0 0-5z"></path><path d="M5 15h14"></path><circle cx="7" cy="19" r="2"></circle><circle cx="17" cy="19" r="2"></circle></svg>` },
     saude: { name: 'Saúde', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L12 2A4.99 4.99 0 0 1 17 7L17 7A4.99 4.99 0 0 1 12 12L12 12A4.99 4.99 0 0 1 7 7L7 7A4.99 4.99 0 0 1 12 2z"></path><path d="M12 12L12 22"></path><path d="M17 7L22 7"></path><path d="M7 7L2 7"></path></svg>` },
     lazer: { name: 'Lazer', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>` },
     educacao: { name: 'Educação', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 2v14M8 16L4 14M16 16l4-2M12 22a4 4 0 0 0 4-4H8a4 4 0 0 0 4 4z"></path></svg>` },
     dividas: { name: 'Dívidas', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>` },
     pessoal: { name: 'Pessoal', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 16.5c-3.5 0-6.5 2-6.5 4.5h13c0-2.5-3-4.5-6.5-4.5z"></path><path d="M20.5 12c.3 0 .5.2.5.5v3c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5z"></path><path d="M3.5 12c.3 0 .5.2.5.5v3c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5z"></path></svg>` },
     investimento: { name: 'Investimentos', icon: ICONS.investment },
-    shopping: { name: 'Compras', icon: ICONS.shopping },
+    shopping: { name: 'Compras com Mumbuca', icon: ICONS.shopping },
+    avulsos: { name: 'Avulsos', icon: ICONS.variable },
     outros: { name: 'Outros', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>` },
 };
 
 // =================================================================================
 // INITIAL DATA
 // =================================================================================
-const octoberData = {
+const initialMonthData = {
     incomes: [
-        { id: "inc1", description: 'SALARIO MARCELLY', amount: 3349.92, paid: true },
-        { id: "inc2", description: 'SALARIO ANDRE', amount: 3349.92, paid: true },
-        { id: "inc3", description: 'MUMBUCA MARCELLY', amount: 617.50, paid: true },
-        { id: "inc4", description: 'MUMBUCA ANDRE', amount: 617.50, paid: true },
-        { id: "inc5", description: 'FÉRIAS ANDRE', amount: 852.00, paid: true },
-        { id: "inc6", description: 'FÉRIAS MARCELLY', amount: 852.00, paid: true },
+        { id: "inc_nov_1", description: 'SALARIO MARCELLY', amount: 3349.92, paid: false },
+        { id: "inc_nov_2", description: 'SALARIO ANDRE', amount: 3349.92, paid: false },
+        { id: "inc_nov_3", description: 'MUMBUCA MARCELLY', amount: 650.00, paid: false },
+        { id: "inc_nov_4", description: 'MUMBUCA ANDRE', amount: 650.00, paid: false },
     ],
     expenses: [
-        { id: "exp1", description: "ABASTECIMENTO MENSAL (SEPARAR NO SOFISA)", amount: 500.00, current: 9, total: 12, type: "fixed", category: "transporte", paid: true, cyclic: true, dueDate: '2025-10-05', paidDate: '2025-10-01' },
-        { id: "exp2", description: "ALUGUEL", amount: 1300.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-10-10', paidDate: '2025-10-08' },
-        { id: "exp3", description: "APPAI DA MARCELLY", amount: 110.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-10-15', paidDate: '2025-10-14' },
-        { id: "exp4", description: "APPAI DO ANDRÉ", amount: 123.55, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-10-15', paidDate: '2025-10-14' },
-        { id: "exp5", description: "CIDADANIA PORTUGUESA", amount: 140.00, current: 12, total: 36, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-10-20' },
-        { id: "exp6", description: "CONTA DA CLARO", amount: 55.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-10-20' },
-        { id: "exp7", description: "CONTA DA VIVO - ANDRÉ", amount: 35.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-10-20' },
-        { id: "exp8", description: "CONTA DA VIVO - MARCELLY", amount: 59.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-10-20' },
-        { id: "exp9", description: "EMPRÉSTIMO PARA ACABAR DE PASSAR ABRIL (MARCIA BRITO)", amount: 220.00, current: 5, total: 6, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-10-25' },
-        { id: "exp10", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (BANCO INTER)", amount: 600.00, current: 1, total: 5, type: "fixed", category: "investimento", paid: true, cyclic: false, dueDate: '2025-10-05', paidDate: '2025-10-02' },
-        { id: "exp11", description: "GYMPASS ANDRÉ", amount: 70.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: true, dueDate: '2025-10-12', paidDate: '2025-10-11' },
-        { id: "exp12", description: "GYMPASS MARCELLY", amount: 70.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: true, dueDate: '2025-10-12', paidDate: '2025-10-11' },
-        { id: "exp13", description: "INTERMÉDICA DO ANDRÉ", amount: 123.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: true, dueDate: '2025-10-15', paidDate: '2025-10-14' },
-        { id: "exp14", description: "INTERNET DE CASA", amount: 120.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-10-18' },
-        { id: "exp15", description: "RENEGOCIAR O CARREFOUR (SEPARAR NO SOFISA)", amount: 500.00, current: 1, total: 12, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp16", description: "REMÉDIOS DO ANDRÉ (SEPARAR NO SOFISA)", amount: 400.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-10-05', paidDate: '2025-10-01' },
-        { id: "exp17", description: "PSICÓLOGA DA MARCELLY", amount: 280.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-10-10', paidDate: '2025-10-09' },
-        { id: "exp18", description: "SEGURO DO CARRO (SEPARAR NO SOFISA)", amount: 143.00, current: 9, total: 12, type: "fixed", category: "transporte", paid: false, cyclic: true, dueDate: '2025-10-22' },
-        { id: "exp19", description: "CONDOMÍNIO", amount: 260.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-10-10', paidDate: '2025-10-09' },
-        { id: "exp20", description: "ESCOLA DO ANDRÉ", amount: 560.00, current: 9, total: 12, type: "fixed", category: "educacao", paid: true, cyclic: false, dueDate: '2025-10-10', paidDate: '2025-10-09' },
-        { id: "exp21", description: "FACULDADE DA MARCELLY", amount: 250.00, current: 1, total: 6, type: "fixed", category: "educacao", paid: true, cyclic: false, dueDate: '2025-10-15', paidDate: '2025-10-14' },
-        { id: "exp22", description: "LUZ", amount: 200.00, current: 9, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-10-25' },
-        { id: "exp23", description: "PLANO ODONTOLÓGICO DO ANDRÉ", amount: 22.00, current: 9, total: 12, type: "fixed", category: "saude", paid: true, cyclic: true, dueDate: '2025-10-15', paidDate: '2025-10-14' },
-        { id: "exp24", description: "PEÇAS DO CARRO - CONSERTO DE DEZEMBRO (MARCIA BRITO)", amount: 67.70, current: 9, total: 10, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp25", description: "EMPRÉSTIMO DA TIA CÉLIA", amount: 400.00, current: 7, total: 10, type: "variable", category: "dividas", paid: false, cyclic: false, dueDate: '2025-10-30' },
-        { id: "exp26", description: "PARCELAMENTO CARTÃO DE MENOR LIMITE DA MARCELLY", amount: 67.79, current: 4, total: 4, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-10-15', paidDate: '2025-10-15' },
-        { id: "exp27", description: "FATURA DO CARTÃO DO ANDRÉ", amount: 100.00, current: 9, total: 12, type: "variable", category: "outros", paid: false, cyclic: false, dueDate: '2025-10-20' },
-        { id: "exp28", description: "MÃO DE OBRA DO DAVI (MARCIA BRITO)", amount: 108.33, current: 2, total: 3, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp29", description: "PEÇA DO CARRO (MARCIA BRITO)", amount: 45.00, current: 2, total: 3, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp30", description: "MOLDURA DA MULTIMÍDIA 7 (MARCIA BRITO)", amount: 138.50, current: 2, total: 2, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp31", description: "MÁQUINA DO VIDRO ELÉTRICO (MARCIA BRITO)", amount: 62.50, current: 2, total: 2, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp32", description: "MULTIMÍDIA DE 7 (MARCIA BRITO)", amount: 268.50, current: 2, total: 2, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp33", description: "CASE DO RELÓGIO (MARCIA BRITO)", amount: 13.50, current: 2, total: 2, type: "variable", category: "pessoal", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp34", description: "MINI JARRA (MARCIA BRITO)", amount: 12.50, current: 2, total: 2, type: "variable", category: "outros", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp35", description: "FATURA CARTÃO PAGBANK", amount: 1441.45, current: 1, total: 1, type: "variable", category: "outros", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp36", description: "PERFUME DA MARCELLY", amount: 67.99, current: 2, total: 2, type: "variable", category: "pessoal", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp37", description: "COMPRAS NAS LOJAS AMERICANAS", amount: 104.46, current: 2, total: 2, type: "variable", category: "outros", paid: false, cyclic: false, dueDate: '2025-10-28' },
-        { id: "exp38", description: "MULTAS (MARCIA BRITO)", amount: 260.00, current: 1, total: 4, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-10-30' }
-    ],
-    shoppingItems: [],
-    goals: [
-        { id: "goal_1", category: "moradia", amount: 2200 },
-        { id: "goal_2", category: "saude", amount: 1200 },
-        { id: "goal_3", category: "transporte", amount: 1000 },
-        { id: "goal_4", category: "dividas", amount: 1500 },
-        { id: "goal_5", category: "investimento", amount: 600 },
-    ],
-    bankAccounts: [
-        { id: "acc_1", name: "Conta Principal", balance: 1500.75 },
-        { id: "acc_2", name: "Poupança", balance: 5000.00 },
-    ]
-};
+        // FIXED - Paid
+        { id: "exp_nov_4", description: "INTERNET DE CASA-(ESTAVA ATRASADA)", amount: 125.85, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-18', paidDate: '2025-10-30' },
+        { id: "exp_nov_13", description: "CONTA DA VIVO---ANDRÉ (ATRASADAS DE AGOSTO, SETEMBRO E OUTUBRO)", amount: 86.86, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-10-30' },
+        { id: "exp_nov_14", description: "CONTA DA CLARO", amount: 74.99, current: 11, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-10-30' },
+        
+        // FIXED - Unpaid
+        { id: "exp_nov_15", description: "SEGURO DO CARRO (OUTUBRO)", amount: 143.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: false, cyclic: true, dueDate: '2025-11-01', paidDate: null },
+        { id: "exp_nov_8", description: "ABASTECIMENTO MENSAL", amount: 400.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: false, cyclic: true, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_9", description: "REMÉDIOS DO ANDRÉ", amount: 400.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_16", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (SOFISA)", amount: 1000.00, current: 2, total: 5, type: "fixed", category: "investimento", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_10", description: "ALUGUEL", amount: 1300.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-11-10', paidDate: null },
+        { id: "exp_nov_11", description: "PSICÓLOGA DA MARCELLY", amount: 280.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-10', paidDate: null },
+        { id: "exp_nov_3", description: "INTERMÉDICA DO ANDRÉ", amount: 123.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: true, dueDate: '2025-11-15', paidDate: null },
+        { id: "exp_nov_12", description: "APPAI DA MARCELLY", amount: 110.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-15', paidDate: null },
+        { id: "exp_nov_5", description: "CONTA DA VIVO - MARCELLY", amount: 69.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-11-20', paidDate: null },
+        { id: "exp_nov_6", description: "APPAI DO ANDRÉ", amount: 129.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-20', paidDate: null },
+        { id: "exp_nov_7", description: "CIDADANIA PORTUGUESA", amount: 140.00, current: 13, total: 36, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-20', paidDate: null },
+        { id: "exp_nov_1", description: "EMPRÉSTIMO PARA ACABAR DE PASSAR ABRIL (MARCIA BRITO)", amount: 220.00, current: 6, total: 6, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-25', paidDate: null },
+        { id: "exp_nov_2", description: "RENEGOCIAÇÃO DO CARREFOUR (MARCIA BRITO)", amount: 250.00, current: 2, total: 12, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-28', paidDate: null },
+        
+        // VARIABLE - Paid
+        { id: "exp_nov_26", description: "FATURA DO CARTÃO DO ANDRÉ", amount: 103.89, current: 11, total: 12, type: "variable", category: "outros", paid: true, cyclic: false, dueDate: '2025-11-20', paidDate: '2025-10-30' },
+        { id: "exp_nov_32", description: "PARCELAMENTO DO ITAÚ - ANDRÉ", amount: 159.59, current: 3, total: 3, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-10-30' },
+        { id: "exp_nov_33", description: "Pagamento-de-fatura atrasada do Inter", amount: 5.50, current: 1, total: 1, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-10-30' },
+        { id: "exp_nov_34", description: "ACORDO ITAÚ ANDRÉ (CARTÃO DE CRÉDITO E CHEQUE ESPECIAL)", amount: 233.14, current: 1, total: 1, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-10-30' },
 
-// Data based on user screenshots to restore state for November 2025
-const novemberData = {
-    incomes: [
-        { id: "inc_nov_1", description: 'SALARIO MARCELLY', amount: 3349.92, paid: true },
-        { id: "inc_nov_2", description: 'SALARIO ANDRE', amount: 3349.92, paid: true },
-        { id: "inc_nov_3", description: 'MUMBUCA MARCELLY', amount: 650.00, paid: true },
-        { id: "inc_nov_4", description: 'MUMBUCA ANDRE', amount: 650.00, paid: true }
-    ],
-    expenses: [
-        // Fixed Expenses
-        { id: "exp_nov_1", description: "ALUGUEL", amount: 1300.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-10', paidDate: '2025-11-01' },
-        { id: "exp_nov_2", description: "CONTA DA VIVO - ANDRÉ", amount: 70.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-01' },
-        { id: "exp_nov_3", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (SOFISA)", amount: 1000.00, current: 2, total: 5, type: "fixed", category: "investimento", paid: true, cyclic: false, dueDate: '2025-11-05', paidDate: '2025-11-01' },
-        { id: "exp_nov_4", description: "SEGURO DO CARRO (OUTUBRO)", amount: 143.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: true, cyclic: true, dueDate: '2025-11-22', paidDate: '2025-11-01' },
-        { id: "exp_nov_5", description: "CONTA DA CLARO", amount: 80.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-05' },
-        { id: "exp_nov_6", description: "ABASTECIMENTO MENSAL", amount: 400.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: true, cyclic: true, dueDate: '2025-11-05', paidDate: '2025-11-10' },
-        { id: "exp_nov_7", description: "CONTA DA VIVO - MARCELLY", amount: 69.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-20', paidDate: '2025-11-10' },
-        { id: "exp_nov_8", description: "INTERNET DE CASA", amount: 120.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: true, cyclic: true, dueDate: '2025-11-18', paidDate: '2025-11-10' },
-        { id: "exp_nov_9", description: "REMÉDIOS DO ANDRÉ", amount: 400.00, current: 10, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-11-05', paidDate: '2025-11-10' },
-        { id: "exp_nov_10", description: "PSICÓLOGA DA MARCELLY", amount: 280.00, current: 10, total: 12, type: "fixed", category: "saude", paid: true, cyclic: false, dueDate: '2025-11-10', paidDate: '2025-11-10' },
-        { id: "exp_nov_11", description: "RENEGOCIACÃO DO CARREFOUR (MARCIA BRITO)", amount: 250.00, current: 2, total: 12, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-28' },
-        { id: "exp_nov_12", description: "APPAI DA MARCELLY", amount: 110.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-15' },
-        { id: "exp_nov_13", description: "APPAI DO ANDRÉ", amount: 129.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-20' },
-        { id: "exp_nov_14", description: "CIDADANIA PORTUGUESA", amount: 140.00, current: 13, total: 36, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-20' },
-        { id: "exp_nov_15", description: "INTERMÉDICA DO ANDRÉ", amount: 123.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: true, dueDate: '2025-11-15' },
-        { id: "exp_nov_16", description: "EMPRÉSTIMO PARA ACABAR DE PASSAR ABRIL (MARCIA BRITO)", amount: 220.00, current: 6, total: 6, type: "fixed", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-25' },
-        // Variable Expenses
-        { id: "exp_nov_17", description: "FATURA DO CARTÃO DO ANDRÉ", amount: 104.00, current: 10, total: 12, type: "variable", category: "outros", paid: true, cyclic: false, dueDate: '2025-11-20', paidDate: '2025-11-01' },
-        { id: "exp_nov_18", description: "FATURA CARTÃO MARCELLY", amount: 100.00, current: 10, total: 12, type: "variable", category: "outros", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-11-01' },
-        { id: "exp_nov_19", description: "PARCELAMENTO DO ITAÚ - ANDRÉ", amount: 153.00, current: 3, total: 3, type: "variable", category: "dividas", paid: true, cyclic: false, dueDate: '2025-11-15', paidDate: '2025-11-01' },
-        { id: "exp_nov_20", description: "PEÇAS DO CARRO - CONSERTO DE DEZEMBRO (MARCIA BRITO)", amount: 67.70, current: 10, total: 10, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
-        { id: "exp_nov_21", description: "MÃO DE OBRA DO DAVI (MARCIA BRITO)", amount: 108.33, current: 3, total: 3, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
-        { id: "exp_nov_22", description: "PEÇA DO CARRO (MARCIA BRITO)", amount: 45.00, current: 3, total: 3, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
-        { id: "exp_nov_23", description: "MULTAS (MARCIA BRITO)", amount: 260.00, current: 2, total: 4, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-30', paidDate: '2025-11-12' },
-        { id: "exp_nov_24", description: "CONSERTO DO CARRO COM PEÇAS DE OUTUBRO (MARCIA BRITO)", amount: 361.75, current: 1, total: 4, type: "variable", category: "transporte", paid: true, cyclic: false, dueDate: '2025-11-28', paidDate: '2025-11-12' },
-        { id: "exp_nov_25", description: "EMPRÉSTIMO DA TIA CÉLIA", amount: 400.00, current: 8, total: 10, type: "variable", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-30' },
+        // VARIABLE - Unpaid
+        { id: "exp_nov_27", description: "DALUZ (LILI)", amount: 88.50, current: 1, total: 2, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_28", description: "VESTIDO CÍTRICA (LILI)", amount: 53.57, current: 1, total: 2, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_29", description: "TEATRO (JADY)", amount: 126.09, current: 2, total: 2, type: "variable", category: "lazer", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_30", description: "PRESENTE JULIANA (JADY)", amount: 34.65, current: 1, total: 1, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_31", description: "PRESENTE NENEM GLEYCI (JADY)", amount: 38.94, current: 1, total: 2, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_20", description: "VESTIDO LONGO AMARELO (MÃE DA MARCELLY)", amount: 33.00, current: 2, total: 3, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-10', paidDate: null },
+        { id: "exp_nov_21", description: "BLUSA BRANCA DALUZ (MÃE DA MARCELLY)", amount: 34.50, current: 2, total: 2, type: "variable", category: "shopping", paid: false, cyclic: false, dueDate: '2025-11-10', paidDate: null },
+        { id: "exp_nov_22", description: "FATURA CARTÃO MARCELLY", amount: 100.00, current: 10, total: 12, type: "variable", category: "outros", paid: false, cyclic: false, dueDate: '2025-11-15', paidDate: null },
+        { id: "exp_nov_17", description: "CONSERTO DO CARRO COM PEÇAS DE OUTUBRO (MARCIA BRITO)", amount: 361.75, current: 1, total: 4, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-11-28', paidDate: null },
+        { id: "exp_nov_23", description: "PEÇAS DO CARRO - CONSERTO DE DEZEMBRO (MARCIA BRITO)", amount: 67.70, current: 10, total: 10, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-11-28', paidDate: null },
+        { id: "exp_nov_24", description: "MÃO DE OBRA DO DAVI (MARCIA BRITO)", amount: 108.33, current: 3, total: 3, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-11-28', paidDate: null },
+        { id: "exp_nov_25", description: "PEÇA DO CARRO (MARCIA BRITO)", amount: 45.00, current: 3, total: 3, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-11-28', paidDate: null },
+        { id: "exp_nov_18", description: "MULTAS (MARCIA BRITO)", amount: 260.00, current: 2, total: 4, type: "variable", category: "transporte", paid: false, cyclic: false, dueDate: '2025-11-30', paidDate: null },
+        { id: "exp_nov_19", description: "EMPRÉSTIMO DA TIA CÉLIA", amount: 400.00, current: 8, total: 10, type: "variable", category: "dividas", paid: false, cyclic: false, dueDate: '2025-11-30', paidDate: null },
     ],
     shoppingItems: [],
+    avulsosItems: [
+        { id: "avulso_nov_1", description: 'Abastecimento', amount: 155.84, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'transporte' },
+        { id: "avulso_nov_2", description: 'Estacionamento', amount: 20.00, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'transporte' },
+    ],
     goals: [
-        { id: "goal_nov_1", category: "compras", amount: 900 },
-        { id: "goal_nov_2", category: "transporte", amount: 400 },
+        { id: "goal_nov_1", category: "shopping", amount: 900 },
+        { id: "goal_nov_mumbuca_1", category: "abastecimento_mumbuca", amount: 400 },
         { id: "goal_nov_3", category: "investimento", amount: 3000 },
         { id: "goal_nov_4", category: "moradia", amount: 2200 },
         { id: "goal_nov_5", category: "saude", amount: 1200 },
-        { id: "goal_nov_6", category: "dividas", amount: 1500 }
+        { id: "goal_nov_6", category: "dividas", amount: 1500 },
     ],
     bankAccounts: [
-        { id: "acc_nov_1", name: "Conta Principal", balance: 0.00 },
-        { id: "acc_nov_2", name: "Poupança", balance: 0.00 }
+        { id: "acc_1", name: "Conta Principal", balance: 0 },
+        { id: "acc_2", name: "Poupança", balance: 0 },
     ]
 };
-
-// =================================================================================
-// MOCK FIREBASE - Refatorado para simular listeners em tempo real (onSnapshot)
-// =================================================================================
-let authStateChangedCallback = null;
-
-const mockUsers = {
-    'marcelly': { 
-        uid: 'family_shared_uid_123', // UID UNIFICADO
-        displayName: 'Família Bispo Brito', 
-        email: 'bispobrito@gmail.com'
-    }
-};
-
-// Função para transmitir atualizações para o listener na aba atual e para outras abas.
-const broadcastUpdate = (path, data) => {
-    // 1. Dispara um evento customizado para a aba atual.
-    const event = new CustomEvent('firestore-update', { detail: { path, data } });
-    window.dispatchEvent(event);
-
-    // 2. Usa o localStorage para notificar outras abas/janelas.
-    localStorage.setItem('firestore-last-update', JSON.stringify({
-        path,
-        data,
-        timestamp: Date.now() // Garante que o evento 'storage' dispare mesmo com dados idênticos
-    }));
-};
-
-
-const mockFirebase = {
-    auth: {
-        onAuthStateChanged: (callback) => {
-            authStateChangedCallback = callback;
-            const user = JSON.parse(localStorage.getItem('currentUser'));
-            callback(user);
-        },
-        signInWithPopup: () => new Promise((resolve, reject) => {
-            const modal = document.getElementById('googleSignInModal');
-            const closeBtn = document.getElementById('closeGoogleSignInModalBtn');
-            const accountsList = document.getElementById('googleAccountsList');
-            
-            const cleanup = () => {
-                modal.classList.remove('active');
-                closeBtn.removeEventListener('click', closeAndReject);
-                accountsList.removeEventListener('click', handleAccountClick);
-            };
-
-            const closeAndReject = () => {
-                cleanup();
-                reject(new Error('Sign-in cancelled by user.'));
-            };
-
-            const handleAccountClick = (e) => {
-                const accountEl = e.target.closest('.google-account-item');
-                if (!accountEl) return;
-                
-                const userId = accountEl.dataset.userId;
-                const selectedUser = mockUsers[userId];
-                
-                if (selectedUser) {
-                    const user = {
-                        uid: selectedUser.uid,
-                        displayName: selectedUser.displayName,
-                        email: selectedUser.email
-                    };
-                    localStorage.setItem('currentUser', JSON.stringify(user));
-                    if (authStateChangedCallback) {
-                        authStateChangedCallback(user);
-                    }
-                    cleanup();
-                    resolve({ user });
-                }
-            };
-            
-            accountsList.addEventListener('click', handleAccountClick);
-            closeBtn.addEventListener('click', closeAndReject);
-            
-            modal.classList.add('active');
-        }),
-        signOut: () => new Promise(resolve => {
-            localStorage.removeItem('currentUser');
-            if (authStateChangedCallback) {
-                authStateChangedCallback(null);
-            }
-            resolve();
-        }),
-    },
-    firestore: {
-        data: {}, // DECOUPLED INITIALIZATION: Step 1 - Initialize empty
-        getDoc: (path) => new Promise(resolve => {
-            const data = mockFirebase.firestore.data[path];
-            resolve({
-                exists: () => !!data,
-                data: () => data,
-            });
-        }),
-        setDoc: (path, data) => new Promise(resolve => {
-            const deepCopiedData = JSON.parse(JSON.stringify(data));
-            mockFirebase.firestore.data[path] = deepCopiedData;
-            localStorage.setItem('firestoreMock', JSON.stringify(mockFirebase.firestore.data));
-            // Transmite a alteração para todos os listeners ativos.
-            broadcastUpdate(path, deepCopiedData);
-            resolve();
-        }),
-        onSnapshot: (path, callback) => {
-            // Handler que reage às atualizações transmitidas
-            const handler = (event) => {
-                if (event.detail.path === path) {
-                    const snapshot = {
-                        exists: () => !!event.detail.data,
-                        data: () => event.detail.data,
-                    };
-                    callback(snapshot);
-                }
-            };
-            window.addEventListener('firestore-update', handler);
-
-            // Simula o comportamento do Firebase real, enviando os dados atuais imediatamente ao se inscrever.
-            const initialData = mockFirebase.firestore.data[path];
-            const initialSnapshot = {
-                exists: () => !!initialData,
-                data: () => initialData,
-            };
-            setTimeout(() => callback(initialSnapshot), 0);
-
-            // Retorna uma função para cancelar a inscrição do listener.
-            return () => {
-                window.removeEventListener('firestore-update', handler);
-            };
-        }
-    }
-};
-
-// DECOUPLED INITIALIZATION: Step 2 - Populate data after object creation
-mockFirebase.firestore.data = JSON.parse(localStorage.getItem('firestoreMock')) || {
-    'families/bispo-brito/months/2025-10': { data: octoberData },
-    'families/bispo-brito/months/2025-11': { data: novemberData }
-};
-
 
 // =================================================================================
 // STATE & AI INSTANCE
 // =================================================================================
-const API_KEY = "AIzaSyAKesjiHKTQczXIbTzAmNd4sBDCXOp9BMQ";
+const API_KEY = "AIzaSyAKesjiHKTQczXIbTzAmNd4sBDCXOp9BMQ"; // User provided Gemini API Key
 const ai = new GoogleGenAI({ apiKey: API_KEY });
 let chat: Chat | null = null;
-
-let currentMonthData = { incomes: [], expenses: [], shoppingItems: [], goals: [], bankAccounts: [] };
-let firestoreUnsubscribe = null; // Para gerenciar o listener em tempo real
+let allUserData = {};
+let currentMonthData = { incomes: [], expenses: [], shoppingItems: [], avulsosItems: [], goals: [], bankAccounts: [] };
 let currentModalType = '';
-let currentMonth = new Date().getMonth() + 1;
-let currentYear = new Date().getFullYear();
+let currentMonth = 11;
+let currentYear = 2025;
 let deferredPrompt;
-let currentUser = null;
-const FAMILY_ID = 'bispo-brito'; // Explicit family ID for shared data
+// =================================================================================
+// GITHUB CONFIGURATION
+// =================================================================================
+let githubConfig = {
+    owner: '',
+    repo: '',
+    token: ''
+};
+let currentFileSha = null;
+let isSyncing = false;
 
 // =================================================================================
 // DOM ELEMENTS
@@ -316,33 +140,35 @@ const FAMILY_ID = 'bispo-brito'; // Explicit family ID for shared data
 const elements = {
     monthDisplay: document.getElementById('monthDisplay'),
     totalIncome: document.getElementById('totalIncome'),
-    totalExpenses: document.getElementById('totalExpenses'),
-    totalPending: document.getElementById('totalPending'),
-    totalBalance: document.getElementById('totalBalance'),
+    totalBills: document.getElementById('totalBills'),
+    paidBills: document.getElementById('paidBills'),
+    pendingBills: document.getElementById('pendingBills'),
+    billsProgressBar: document.getElementById('billsProgressBar'),
+    totalMonthlySpending: document.getElementById('totalMonthlySpending'),
+    shoppingSpendingDetail: document.getElementById('shoppingSpendingDetail'),
+    avulsosSpendingDetail: document.getElementById('avulsosSpendingDetail'),
+    finalBalance: document.getElementById('finalBalance'),
     incomesList: document.getElementById('incomesList'),
     expensesList: document.getElementById('expensesList'),
     shoppingList: document.getElementById('shoppingList'),
+    avulsosList: document.getElementById('avulsosList'),
     goalsList: document.getElementById('goalsList'),
     bankAccountsList: document.getElementById('bankAccountsList'),
     overviewChart: document.getElementById('overviewChart'),
-    // Auth & Layout
     appContainer: document.getElementById('app-container'),
-    loginScreen: document.getElementById('login-screen'),
     monthSelector: document.querySelector('.month-selector'),
-    // Modals
     addModal: document.getElementById('addModal'),
     editModal: document.getElementById('editModal'),
     aiModal: document.getElementById('aiModal'),
     goalModal: document.getElementById('goalModal'),
     accountModal: document.getElementById('accountModal'),
-    // Add Modal
+    githubConfigModal: document.getElementById('githubConfigModal'),
     addModalTitle: document.getElementById('addModalTitle'),
     addForm: document.getElementById('addForm'),
     typeGroup: document.getElementById('typeGroup'),
     categoryGroup: document.getElementById('categoryGroup'),
     installmentsGroup: document.getElementById('installmentsGroup'),
     dueDateGroup: document.getElementById('dueDateGroup'),
-    // Edit Modal
     editForm: document.getElementById('editForm'),
     editModalTitle: document.getElementById('editModalTitle'),
     editItemId: document.getElementById('editItemId'),
@@ -359,30 +185,27 @@ const elements = {
     editCurrentInstallment: document.getElementById('editCurrentInstallment'),
     editTotalInstallments: document.getElementById('editTotalInstallments'),
     editInstallmentsInfo: document.getElementById('editInstallmentsInfo'),
-    // AI Modal
     aiAnalysis: document.getElementById('aiAnalysis'),
     aiModalTitle: document.getElementById('aiModalTitle'),
     aiChatForm: document.getElementById('aiChatForm'),
     aiChatInput: document.getElementById('aiChatInput'),
-    // Goal Modal
     goalModalTitle: document.getElementById('goalModalTitle'),
     goalForm: document.getElementById('goalForm'),
     goalId: document.getElementById('goalId'),
     goalCategory: document.getElementById('goalCategory'),
     goalAmount: document.getElementById('goalAmount'),
-    // Account Modal
     accountModalTitle: document.getElementById('accountModalTitle'),
     accountForm: document.getElementById('accountForm'),
     accountId: document.getElementById('accountId'),
     accountName: document.getElementById('accountName'),
     accountBalance: document.getElementById('accountBalance'),
-    // Profile
-    profileInfo: document.getElementById('profile-info'),
-    // Tab & View Navigation
+    githubConfigForm: document.getElementById('githubConfigForm'),
+    githubSyncStatus: document.getElementById('github-sync-status'),
     tabBar: document.getElementById('tab-bar'),
     tabButtons: document.querySelectorAll('.tab-btn'),
     appViews: document.querySelectorAll('.app-view'),
     segmentedBtns: document.querySelectorAll('.segmented-btn'),
+    syncBtn: document.getElementById('sync-btn'),
 };
 
 // =================================================================================
@@ -422,11 +245,10 @@ function populateCategorySelects() {
     const selects = [
         document.getElementById('category'),
         document.getElementById('editCategory'),
-        document.getElementById('goalCategory')
     ];
     selects.forEach(select => {
         if (select) {
-            select.innerHTML = '';
+            select.innerHTML = '<option value="">Selecione...</option>';
             for (const key in SPENDING_CATEGORIES) {
                 const option = document.createElement('option');
                 option.value = key;
@@ -435,181 +257,79 @@ function populateCategorySelects() {
             }
         }
     });
-}
 
-
-// =================================================================================
-// DATABASE (IndexedDB for Offline & Firestore for Cloud Sync)
-// =================================================================================
-const idb = {
-    db: null,
-    async open() {
-        return new Promise((resolve, reject) => {
-            const request = indexedDB.open('FinanceiroDB', 1);
-            request.onupgradeneeded = () => {
-                const db = request.result;
-                if (!db.objectStoreNames.contains('months')) {
-                    db.createObjectStore('months', { keyPath: 'id' });
-                }
-            };
-            request.onsuccess = () => {
-                this.db = request.result;
-                resolve(this.db);
-            };
-            request.onerror = () => reject(request.error);
-        });
-    },
-    async get(storeName, key) {
-        if (!this.db) await this.open();
-        return new Promise((resolve, reject) => {
-            const transaction = this.db.transaction(storeName, 'readonly');
-            const store = transaction.objectStore(storeName);
-            const request = store.get(key);
-            request.onsuccess = () => resolve(request.result);
-            request.onerror = () => reject(request.error);
-        });
-    },
-    async set(storeName, value) {
-        if (!this.db) await this.open();
-        return new Promise((resolve, reject) => {
-            const transaction = this.db.transaction(storeName, 'readwrite');
-            const store = transaction.objectStore(storeName);
-            const request = store.put(value);
-            request.onsuccess = () => resolve(request.result);
-            request.onerror = () => reject(request.error);
-        });
-    }
-};
-
-// =================================================================================
-// DATA HANDLING
-// =================================================================================
-async function saveDataToFirestore(monthKey, data) {
-    if (!currentUser) return;
-    const docPath = `families/${FAMILY_ID}/months/${monthKey}`;
-    try {
-        await mockFirebase.firestore.setDoc(docPath, { data });
-        console.log(`[Firestore] Data for ${monthKey} saved successfully.`);
-    } catch (error) {
-        console.error("[Firestore] Error saving data:", error);
+    const goalCategorySelect = document.getElementById('goalCategory');
+    if (goalCategorySelect) {
+        goalCategorySelect.innerHTML = '<option value="">Selecione...</option>';
+        Object.keys(SPENDING_CATEGORIES)
+            .filter(key => key !== 'avulsos') // Don't allow manual 'avulsos' goal
+            .forEach(key => {
+                const option = document.createElement('option');
+                option.value = key;
+                option.textContent = SPENDING_CATEGORIES[key].name;
+                goalCategorySelect.appendChild(option);
+            });
     }
 }
 
-async function loadDataFromFirestore(path) {
-    if (!currentUser) return null;
-    try {
-        const docSnap = await mockFirebase.firestore.getDoc(path);
-        if (docSnap.exists()) {
-            return docSnap.data().data;
-        }
-        return null;
-    } catch (error) {
-        console.error(`[Firestore] Error loading data from ${path}:`, error);
-        return null;
-    }
+
+// =================================================================================
+// DATA HANDLING (LOCAL & GITHUB)
+// =================================================================================
+function saveLocalData() {
+    const monthKey = `${currentYear}-${currentMonth.toString().padStart(2, '0')}`;
+    allUserData[monthKey] = JSON.parse(JSON.stringify(currentMonthData));
+    localStorage.setItem('financeData', JSON.stringify(allUserData));
+    updateUI(); // Re-render on every local change
 }
 
-async function saveData() {
-    if (!currentUser) return;
-    console.log("Saving data immediately...");
+function loadLocalData() {
+    const data = localStorage.getItem('financeData');
+    allUserData = data ? JSON.parse(data) : {};
+
+    // Check if there is any data at all. If not, seed with the initial data.
+    if (Object.keys(allUserData).length === 0) {
+        const initialMonthKey = `${currentYear}-${currentMonth.toString().padStart(2, '0')}`;
+        allUserData[initialMonthKey] = JSON.parse(JSON.stringify(initialMonthData));
+    }
+    
+    loadDataForCurrentMonth();
+}
+
+async function loadDataForCurrentMonth() {
     const monthKey = `${currentYear}-${currentMonth.toString().padStart(2, '0')}`;
     
-    // Create a deep copy to avoid mutation issues before saving
-    const dataToSave = JSON.parse(JSON.stringify(currentMonthData));
-
-    await idb.set('months', { id: monthKey, data: dataToSave });
-    await saveDataToFirestore(monthKey, dataToSave);
+    if (allUserData[monthKey]) {
+        currentMonthData = JSON.parse(JSON.stringify(allUserData[monthKey]));
+    } else {
+        await createNewMonthData();
+    }
     
-    if ('serviceWorker' in navigator && 'SyncManager' in window) {
-        navigator.serviceWorker.ready.then(sw => {
-            sw.sync.register('sync-data');
-        }).catch(err => console.error("Background sync registration failed:", err));
-    }
-}
-
-
-async function loadData() {
-    // Cancela a inscrição do listener do mês anterior para evitar múltiplas execuções.
-    if (firestoreUnsubscribe) {
-        firestoreUnsubscribe();
-        firestoreUnsubscribe = null;
-    }
-
-    if (!currentUser) {
-        clearData();
-        updateUI();
-        return;
-    }
-
-    const monthKey = `${currentYear}-${currentMonth.toString().padStart(2, '0')}`;
-    const sharedPath = `families/${FAMILY_ID}/months/${monthKey}`;
-
-    // Inscreve-se para receber atualizações em tempo real do documento do mês atual.
-    firestoreUnsubscribe = mockFirebase.firestore.onSnapshot(sharedPath, async (docSnap) => {
-        console.log("[Realtime] Received update for", sharedPath);
-        if (docSnap.exists()) {
-            const data = docSnap.data().data;
-            // Compara os dados recebidos com os atuais para evitar re-renderizações desnecessárias.
-            if (JSON.stringify(data) !== JSON.stringify(currentMonthData)) {
-                console.log("[Realtime] Data changed. Updating UI.");
-                currentMonthData = data;
-                await idb.set('months', { id: monthKey, data: currentMonthData }); // Mantém o banco de dados local sincronizado
-                updateUI();
-                checkAndSendNotifications();
-            }
-        } else {
-            console.log(`[Realtime] No data for ${monthKey}. Attempting to initialize.`);
-            const localData = await idb.get('months', monthKey);
-            if (localData) {
-                currentMonthData = localData.data;
-                 await saveData(); // Re-sync local data if Firestore is empty
-            } else if (currentMonth === 10 && currentYear === 2025) {
-                // This case handles loading the pre-seeded data for the first time
-                console.log("[Data] Initializing with October sample data.");
-                currentMonthData = JSON.parse(JSON.stringify(octoberData));
-                await saveData();
-            } else {
-                await createNewMonthData();
-            }
-        }
-    });
-
+    updateUI();
     updateMonthDisplay();
-    requestNotificationPermission();
 }
-
 
 async function createNewMonthData() {
     console.log("[Data] Creating new month data...");
     const prevMonth = currentMonth === 1 ? 12 : currentMonth - 1;
     const prevYear = currentMonth === 1 ? currentYear - 1 : currentYear;
     const previousMonthKey = `${prevYear}-${prevMonth.toString().padStart(2, '0')}`;
-    const prevSharedPath = `families/${FAMILY_ID}/months/${previousMonthKey}`;
-
-    let baseData = await loadDataFromFirestore(prevSharedPath);
     
-    if (!baseData) {
-        const previousSavedLocal = await idb.get('months', previousMonthKey);
-        if(previousSavedLocal) {
-            baseData = previousSavedLocal.data;
-        } else if (prevMonth === 10 && prevYear === 2025) {
-            baseData = octoberData;
-        }
-    }
-    
+    let baseData = allUserData[previousMonthKey] || null;
+        
     if (!baseData || typeof baseData !== 'object') {
-        baseData = { incomes: [], expenses: [], shoppingItems: [], goals: [], bankAccounts: [] };
+        baseData = { incomes: [], expenses: [], shoppingItems: [], avulsosItems: [], goals: [], bankAccounts: [] };
     }
     
     const newMonthData = {
         incomes: [],
         expenses: [],
         shoppingItems: [],
+        avulsosItems: [],
         goals: [],
         bankAccounts: JSON.parse(JSON.stringify(baseData.bankAccounts || []))
     };
 
-    // 1. Generate new incomes with updated values
     newMonthData.incomes.push(
         { id: `inc_salario_marcelly_${Date.now()}`, description: 'SALARIO MARCELLY', amount: 3349.92, paid: false },
         { id: `inc_salario_andre_${Date.now()}`, description: 'SALARIO ANDRE', amount: 3349.92, paid: false },
@@ -624,7 +344,6 @@ async function createNewMonthData() {
         );
     }
 
-    // 2. Generate new goals based on Mumbuca and investments
     const totalMumbuca = 1300.00;
     newMonthData.goals.push(
         { id: `goal_shopping_${Date.now()}`, category: 'shopping', amount: totalMumbuca * 0.70 },
@@ -641,13 +360,11 @@ async function createNewMonthData() {
     );
     newMonthData.goals.push(...JSON.parse(JSON.stringify(otherGoals)));
 
-    
-    // 3. Carry over recurring and installment expenses
     (baseData.expenses || []).forEach(expense => {
         let shouldAdd = false;
         const newExpense = { ...expense, id: `exp_${Date.now()}_${Math.random()}`, paid: false, paidDate: null };
         
-        if (expense.current < expense.total) {
+        if (expense.total > 1 && expense.current < expense.total) {
             newExpense.current += 1;
             shouldAdd = true;
         } else if (expense.cyclic) {
@@ -663,26 +380,11 @@ async function createNewMonthData() {
         }
     });
 
-    // 4. Carry over unpaid shopping items
-    (baseData.shoppingItems || [])
-        .filter(item => !item.paid)
-        .forEach(item => {
-             newMonthData.shoppingItems.push({
-                ...item,
-                id: `shop_${Date.now()}_${Math.random()}`,
-                paid: false,
-                paidDate: null,
-            });
-        });
-
     currentMonthData = newMonthData;
-    await saveData();
-    updateUI();
+    saveLocalData();
 }
 
 function changeMonth(offset) {
-    if (!currentUser) return;
-    saveData(); 
     currentMonth += offset;
     if (currentMonth > 12) {
         currentMonth = 1;
@@ -691,76 +393,169 @@ function changeMonth(offset) {
         currentMonth = 12;
         currentYear--;
     }
-    loadData();
+    loadDataForCurrentMonth();
 }
-
-function clearData() {
-    currentMonthData = { incomes: [], expenses: [], shoppingItems: [], goals: [], bankAccounts: [] };
-}
-
 
 // =================================================================================
-// AUTHENTICATION
+// GITHUB SYNC
 // =================================================================================
-function handleLogin() {
-    mockFirebase.auth.signInWithPopup()
-        .catch(error => console.error("Login failed:", error));
+
+function loadGithubConfig() {
+    const config = localStorage.getItem('githubConfig');
+    if (config) {
+        githubConfig = JSON.parse(config);
+    }
 }
 
-function handleLogout() {
-    mockFirebase.auth.signOut()
-        .catch(error => console.error("Logout failed:", error));
+async function saveGithubConfig(owner, repo, token) {
+    githubConfig = { owner, repo, token };
+    localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
+    updateSyncUI();
+    await syncData(true); // Perform an initial sync after saving new credentials.
 }
 
-function updateUIForAuthState(user) {
-    currentUser = user;
-    if (user) {
-        renderProfilePage(user);
-        elements.appContainer.classList.remove('hidden');
-        elements.loginScreen.classList.add('hidden');
-        document.getElementById('logout-button').addEventListener('click', handleLogout);
-        
-        if (!sessionStorage.getItem('has_loaded_once')) {
-            const today = new Date();
-            const dayOfMonth = today.getDate();
-            let initialMonth = today.getMonth() + 1;
-            let initialYear = today.getFullYear();
+function isConfigured() {
+    return githubConfig.owner && githubConfig.repo && githubConfig.token;
+}
 
-            // After day 25, automatically show the next month's plan.
-            if (dayOfMonth > 25) {
-                initialMonth++;
-                if (initialMonth > 12) {
-                    initialMonth = 1;
-                    initialYear++;
-                }
+function updateSyncUI() {
+    if (isConfigured()) {
+        if (elements.syncBtn) {
+            elements.syncBtn.disabled = false;
+            elements.syncBtn.title = "Sincronizar dados com o GitHub";
+        }
+        const lastSync = localStorage.getItem('lastSync');
+        if (lastSync) {
+            elements.githubSyncStatus.textContent = `Última sincronização: ${new Date(lastSync).toLocaleString('pt-BR')}`;
+        } else {
+            elements.githubSyncStatus.textContent = 'Pronto para sincronizar.';
+        }
+        document.getElementById('openGithubConfigBtn').textContent = "Atualizar Configuração";
+    } else {
+        if (elements.syncBtn) {
+            elements.syncBtn.disabled = true;
+            elements.syncBtn.title = "Configure a sincronização com o GitHub na aba 'Perfil'";
+        }
+        elements.githubSyncStatus.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span>A sincronização está desativada. Clique em configurar para salvar seus dados na nuvem.</span>`;
+        document.getElementById('openGithubConfigBtn').textContent = "Configurar";
+    }
+}
+
+
+async function syncData(isInitialLoad = false) {
+    if (isSyncing || !isConfigured()) {
+        return;
+    }
+
+    isSyncing = true;
+    if (elements.syncBtn) {
+        elements.syncBtn.classList.add('syncing');
+        elements.syncBtn.disabled = true;
+    }
+
+    const { owner, repo, token } = githubConfig;
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/data.json`;
+    const headers = {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+    };
+
+    try {
+        // Step 1: Fetch the latest version from GitHub
+        let remoteData = {};
+        let remoteSha = null;
+        try {
+            const response = await fetch(apiUrl, { headers });
+            if (response.ok) {
+                const data = await response.json();
+                remoteData = JSON.parse(atob(data.content));
+                remoteSha = data.sha;
+            } else if (response.status !== 404) {
+                throw new Error(`Erro ao buscar dados do GitHub: ${response.statusText}`);
             }
-            
-            currentMonth = initialMonth;
-            currentYear = initialYear;
-            sessionStorage.setItem('has_loaded_once', 'true');
+        } catch (e) {
+             throw new Error(`Falha na conexão com o GitHub. Verifique sua rede. (${e.message})`);
+        }
+        
+        currentFileSha = remoteSha;
+
+        // On initial load, we just load from remote and update local
+        if (isInitialLoad) {
+            allUserData = remoteData;
+            localStorage.setItem('financeData', JSON.stringify(allUserData));
+            loadDataForCurrentMonth(); 
+            updateLastSyncTime(true);
+            return;
+        }
+        
+        // Step 2: Try to push local changes
+        const localDataString = JSON.stringify(allUserData);
+        const remoteDataString = JSON.stringify(remoteData);
+        
+        if (localDataString === remoteDataString) {
+            alert("Seus dados já estão atualizados com a nuvem.");
+            updateLastSyncTime(true); // Update time even if no change
+            return;
+        }
+        
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(allUserData, null, 2))));
+        const body = {
+            message: `Atualização de dados de ${new Date().toISOString()}`,
+            content: content,
+            sha: currentFileSha,
+        };
+
+        const putResponse = await fetch(apiUrl, {
+            method: 'PUT',
+            headers,
+            body: JSON.stringify(body),
+        });
+
+        if (putResponse.ok) {
+            const result = await putResponse.json();
+            currentFileSha = result.content.sha;
+            updateLastSyncTime(true);
+            alert("Dados sincronizados com sucesso!");
+        } else if (putResponse.status === 409) { // Conflict
+            alert("Conflito! A versão na nuvem foi atualizada. Baixando a versão mais recente para evitar perda de dados. Por favor, verifique as informações e tente salvar novamente.");
+            await syncData(true);
+        } else {
+            const error = await putResponse.json();
+            throw new Error(`Erro ao salvar no GitHub: ${error.message}`);
         }
 
-        loadData();
-        navigateTo('home');
-    } else {
-        elements.appContainer.classList.add('hidden');
-        elements.loginScreen.classList.remove('hidden');
-        sessionStorage.removeItem('has_loaded_once'); // Clear session state on logout
-        clearData();
-        updateUI();
+    } catch (error) {
+        console.error("Sync Error:", error);
+        alert(`Falha na sincronização: ${error.message}`);
+        updateLastSyncTime(false);
+    } finally {
+        isSyncing = false;
+        if (elements.syncBtn) {
+            elements.syncBtn.classList.remove('syncing');
+            elements.syncBtn.disabled = !isConfigured();
+        }
     }
+}
+
+
+function updateLastSyncTime(isSuccess) {
+    if (isSuccess) {
+        const now = new Date();
+        localStorage.setItem('lastSync', now.toISOString());
+    }
+    updateSyncUI(); // This will refresh the status text
 }
 
 // =================================================================================
 // NAVIGATION
 // =================================================================================
 function navigateTo(viewName) {
-    // Update Views
     elements.appViews.forEach(view => {
         view.classList.toggle('active', view.id === `view-${viewName}`);
     });
 
-    // Update Tab Buttons
     elements.tabButtons.forEach(btn => {
         btn.classList.toggle('active', btn.dataset.view === viewName);
     });
@@ -768,7 +563,6 @@ function navigateTo(viewName) {
     const showMonthSelector = ['home', 'lancamentos', 'metas'].includes(viewName);
     elements.monthSelector.style.display = showMonthSelector ? 'flex' : 'none';
 }
-
 
 // =================================================================================
 // UI RENDERING
@@ -778,23 +572,44 @@ function updateUI() {
     renderList('incomes', elements.incomesList, createIncomeItem, "Nenhuma entrada registrada", ICONS.income);
     renderList('expenses', elements.expensesList, createExpenseItem, "Nenhuma despesa registrada", ICONS.expense, true);
     renderList('shoppingItems', elements.shoppingList, createShoppingItem, "Nenhuma compra registrada", ICONS.shopping);
+    renderList('avulsosItems', elements.avulsosList, createShoppingItem, "Nenhuma despesa avulsa registrada", ICONS.variable);
     renderGoalsPage();
     renderBankAccounts();
     renderOverviewChart();
 }
 
 function updateSummary() {
-    const totalIncome = currentMonthData.incomes.reduce((sum, item) => sum + item.amount, 0);
-    const allExpenses = [...currentMonthData.expenses, ...currentMonthData.shoppingItems];
-    const totalExpenses = allExpenses.reduce((sum, item) => sum + item.amount, 0);
-    const totalPending = allExpenses.filter(item => !item.paid).reduce((sum, item) => sum + item.amount, 0);
-    const balance = totalIncome - totalExpenses;
+    // Calculations
+    const totalIncome = (currentMonthData.incomes || []).reduce((sum, item) => sum + item.amount, 0);
+    const totalPlannedExpenses = (currentMonthData.expenses || []).reduce((sum, item) => sum + item.amount, 0);
+    const totalPaidExpenses = (currentMonthData.expenses || []).filter(item => item.paid).reduce((sum, item) => sum + item.amount, 0);
+    const remainingToPay = totalPlannedExpenses - totalPaidExpenses;
+    
+    const totalShopping = (currentMonthData.shoppingItems || []).reduce((sum, item) => sum + item.amount, 0);
+    const totalAvulsos = (currentMonthData.avulsosItems || []).reduce((sum, item) => sum + item.amount, 0);
+    const totalMonthlySpending = totalShopping + totalAvulsos;
 
+    const finalBalance = totalIncome - totalPlannedExpenses - totalMonthlySpending;
+    
+    // Update Income Card
     elements.totalIncome.textContent = formatCurrency(totalIncome);
-    elements.totalExpenses.textContent = formatCurrency(totalExpenses);
-    elements.totalPending.textContent = formatCurrency(totalPending);
-    elements.totalBalance.textContent = formatCurrency(balance);
-    elements.totalBalance.className = `summary-value ${balance >= 0 ? 'balance-positive' : 'balance-negative'}`;
+
+    // Update Bills to Pay Card
+    elements.totalBills.textContent = formatCurrency(totalPlannedExpenses);
+    elements.paidBills.textContent = formatCurrency(totalPaidExpenses);
+    elements.pendingBills.textContent = formatCurrency(remainingToPay);
+    
+    const billsProgress = totalPlannedExpenses > 0 ? (totalPaidExpenses / totalPlannedExpenses) * 100 : 0;
+    elements.billsProgressBar.style.width = `${billsProgress}%`;
+
+    // Update Monthly Spending Card
+    elements.totalMonthlySpending.textContent = formatCurrency(totalMonthlySpending);
+    elements.shoppingSpendingDetail.textContent = formatCurrency(totalShopping);
+    elements.avulsosSpendingDetail.textContent = formatCurrency(totalAvulsos);
+
+    // Update Final Balance Card
+    elements.finalBalance.textContent = formatCurrency(finalBalance);
+    elements.finalBalance.className = `summary-value ${finalBalance >= 0 ? 'balance-positive' : 'balance-negative'}`;
 }
 
 function updateMonthDisplay() {
@@ -933,7 +748,7 @@ function createShoppingItem(itemData) {
 }
 
 function renderOverviewChart() {
-    const allExpenses = [...(currentMonthData.expenses || []), ...(currentMonthData.shoppingItems || [])];
+    const allExpenses = [...(currentMonthData.expenses || []), ...(currentMonthData.shoppingItems || []), ...(currentMonthData.avulsosItems || [])];
     const totalExpenses = allExpenses.reduce((s, e) => s + e.amount, 0);
 
     if (elements.overviewChart) {
@@ -969,14 +784,6 @@ function renderOverviewChart() {
     }
 }
 
-function renderProfilePage(user) {
-    if (!user) return;
-    elements.profileInfo.innerHTML = `
-        <div class="profile-name">${user.displayName}</div>
-        <div class="profile-email">${user.email}</div>
-    `;
-}
-
 // =================================================================================
 // EVENT HANDLERS & ACTIONS
 // =================================================================================
@@ -984,33 +791,50 @@ function togglePaid(id, type) {
     const items = currentMonthData[type] || [];
     const item = items.find(i => i.id === id);
     if (item) {
+        const wasPaid = item.paid;
         item.paid = !item.paid;
         
         if (item.paid) {
             item.paidDate = new Date().toISOString().split('T')[0];
-            const sent = JSON.parse(localStorage.getItem('sentNotifications') || '{}');
-            delete sent[`upcoming-${id}`];
-            delete sent[`overdue-${id}`];
-            localStorage.setItem('sentNotifications', JSON.stringify(sent));
         } else {
             item.paidDate = null;
         }
 
-        updateUI();
-        saveData(); // Save immediately
+        // Automation: Update bank account balances based on payments
+        if (wasPaid !== item.paid && (type === 'expenses' || type === 'shoppingItems' || type === 'avulsosItems')) {
+            const mainAccount = (currentMonthData.bankAccounts || []).find(a => a.name === "Conta Principal");
+            const savingsAccount = (currentMonthData.bankAccounts || []).find(a => a.name === "Poupança");
+
+            const isInvestmentExpense = item.description?.toUpperCase().includes('INVESTIMENTO PARA VIAGEM');
+
+            // If an item is marked as PAID (it wasn't paid before, but now it is)
+            if (item.paid) {
+                if (mainAccount) {
+                    mainAccount.balance -= item.amount;
+                }
+                if (isInvestmentExpense && savingsAccount) {
+                    savingsAccount.balance += item.amount;
+                }
+            } 
+            // If an item is marked as UNPAID (it was paid before, but now it is not)
+            else { 
+                if (mainAccount) {
+                    mainAccount.balance += item.amount;
+                }
+                if (isInvestmentExpense && savingsAccount) {
+                    savingsAccount.balance -= item.amount;
+                }
+            }
+        }
+
+        saveLocalData(); 
     }
 }
 
 function deleteItem(id, type) {
-    currentMonthData[type] = (currentMonthData[type] || []).filter(i => i.id !== id);
-
-    const sent = JSON.parse(localStorage.getItem('sentNotifications') || '{}');
-    delete sent[`upcoming-${id}`];
-    delete sent[`overdue-${id}`];
-    localStorage.setItem('sentNotifications', JSON.stringify(sent));
-
-    updateUI();
-    saveData(); // Save immediately
+    if (!currentMonthData[type]) return;
+    currentMonthData[type] = currentMonthData[type].filter(i => i.id !== id);
+    saveLocalData();
 }
 
 function handleAddItem(event) {
@@ -1025,6 +849,7 @@ function handleAddItem(event) {
     const newItem = { id: `${currentModalType}_${Date.now()}`, description, amount, paid: false, dueDate, paidDate: null };
     
     if (currentModalType === 'income') {
+        if (!currentMonthData.incomes) currentMonthData.incomes = [];
         currentMonthData.incomes.push(newItem);
     } else if (currentModalType === 'expense') {
         newItem.type = form.type.value;
@@ -1032,14 +857,19 @@ function handleAddItem(event) {
         newItem.current = parseInt(form.currentInstallment.value) || 1;
         newItem.total = parseInt(form.totalInstallments.value) || 1;
         newItem.cyclic = form.cyclic.checked;
+        if (!currentMonthData.expenses) currentMonthData.expenses = [];
         currentMonthData.expenses.push(newItem);
     } else if (currentModalType === 'shopping') {
         newItem.category = form.category.value;
+        if (!currentMonthData.shoppingItems) currentMonthData.shoppingItems = [];
         currentMonthData.shoppingItems.push(newItem);
+    } else if (currentModalType === 'avulso') {
+        newItem.category = form.category.value;
+        if (!currentMonthData.avulsosItems) currentMonthData.avulsosItems = [];
+        currentMonthData.avulsosItems.push(newItem);
     }
     
-    updateUI();
-    saveData(); // Save immediately
+    saveLocalData(); 
     closeAddModal();
 }
 
@@ -1061,10 +891,25 @@ function handleEditItem(event) {
             item.current = parseInt(elements.editCurrentInstallment.value);
             item.total = parseInt(elements.editTotalInstallments.value);
         }
-        updateUI();
-        saveData();
+        saveLocalData();
         closeEditModal();
     }
+}
+
+async function handleSaveGithubConfig(event) {
+    event.preventDefault();
+    const form = event.target;
+    const owner = form.githubOwner.value.trim();
+    const repo = form.githubRepo.value.trim();
+    const token = form.githubToken.value.trim();
+
+    if (!owner || !repo || !token) {
+        alert("Por favor, preencha todos os campos.");
+        return;
+    }
+    
+    closeGithubConfigModal();
+    await saveGithubConfig(owner, repo, token);
 }
 
 // =================================================================================
@@ -1084,15 +929,17 @@ function openAddModal(type) {
     const titles = {
         income: 'Nova Entrada',
         expense: 'Nova Despesa',
-        shopping: 'Nova Compra'
+        shopping: 'Nova Compra com Mumbuca',
+        avulso: 'Nova Despesa Avulsa'
     };
     elements.addModalTitle.innerHTML = `${ICONS.add} ${titles[type]}`;
     
     const isExpense = type === 'expense';
     const isShopping = type === 'shopping';
+    const isAvulso = type === 'avulso';
 
     elements.typeGroup.style.display = isExpense ? 'block' : 'none';
-    elements.categoryGroup.style.display = isExpense || isShopping ? 'block' : 'none';
+    elements.categoryGroup.style.display = isExpense || isShopping || isAvulso ? 'block' : 'none';
     elements.dueDateGroup.style.display = type !== 'income' ? 'block' : 'none';
     elements.installmentsGroup.style.display = isExpense ? 'flex' : 'none';
     document.getElementById('cyclicGroup').style.display = isExpense ? 'flex' : 'none';
@@ -1119,11 +966,11 @@ function openEditModal(id, type) {
     elements.editDueDateGroup.style.display = hasDueDate ? 'flex' : 'none';
     if(hasDueDate) elements.editDueDate.value = item.dueDate || '';
 
-    const hasCategory = type === 'expenses' || type === 'shoppingItems';
+    const hasCategory = type === 'expenses' || type === 'shoppingItems' || type === 'avulsosItems';
     elements.editCategoryGroup.style.display = hasCategory ? 'block' : 'none';
     if (hasCategory) elements.editCategory.value = item.category;
 
-    const canBePaid = type === 'expenses' || type === 'shoppingItems';
+    const canBePaid = type === 'expenses' || type === 'shoppingItems' || type === 'avulsosItems';
     elements.editPaidDateGroup.style.display = canBePaid && item.paid ? 'block' : 'none';
     if (canBePaid && item.paid) {
         elements.editPaidDate.value = item.paidDate || new Date().toISOString().split('T')[0];
@@ -1144,28 +991,45 @@ function closeEditModal() {
     closeModal(elements.editModal);
 }
 
+function openGithubConfigModal() {
+    elements.githubConfigForm.githubOwner.value = githubConfig.owner || '';
+    elements.githubConfigForm.githubRepo.value = githubConfig.repo || '';
+    elements.githubConfigForm.githubToken.value = githubConfig.token || '';
+    openModal(elements.githubConfigModal);
+}
+
+function closeGithubConfigModal() {
+    closeModal(elements.githubConfigModal);
+}
+
 // =================================================================================
 // GOALS FEATURE
 // =================================================================================
 function renderGoalsPage() {
-    const goals = currentMonthData.goals || [];
+    const userGoals = currentMonthData.goals || [];
     elements.goalsList.innerHTML = '';
 
-    if (goals.length === 0) {
+    // Calculate dynamic "Avulsos" goal
+    const totalIncome = (currentMonthData.incomes || []).reduce((sum, item) => sum + item.amount, 0);
+    const totalDividas = (currentMonthData.expenses || []).filter(item => item.category === 'dividas').reduce((sum, item) => sum + item.amount, 0);
+    const avulsosGoalAmount = totalIncome - totalDividas;
+    const avulsosAutoGoal = { id: 'goal_auto_avulsos', category: 'avulsos', amount: avulsosGoalAmount, isAuto: true };
+
+    const allGoals = [avulsosAutoGoal, ...userGoals];
+
+    if (allGoals.length === 0) {
         elements.goalsList.innerHTML = `<div class="empty-state">${ICONS.goal}<div>Você ainda não definiu nenhuma meta para este mês. Que tal começar agora?</div></div>`;
         return;
     }
 
-    goals.forEach(goal => {
+    allGoals.forEach(goal => {
         let spent = 0;
-        if (goal.category === 'shopping') {
-            // Special case for 'shopping' goal, which sums up items from the shopping list
-            spent = (currentMonthData.shoppingItems || []).reduce((sum, item) => sum + item.amount, 0);
+        if (goal.category === 'avulsos') {
+            spent = (currentMonthData.avulsosItems || []).reduce((sum, item) => sum + item.amount, 0);
         } else {
-            // Standard goals are based on expense categories
-            spent = (currentMonthData.expenses || [])
-                .filter(e => e.category === goal.category)
-                .reduce((sum, e) => sum + e.amount, 0);
+            const relevantExpenses = (currentMonthData.expenses || []).filter(e => e.category === goal.category);
+            const relevantShopping = (currentMonthData.shoppingItems || []).filter(s => s.category === goal.category);
+            spent = [...relevantExpenses, ...relevantShopping].reduce((sum, item) => sum + item.amount, 0);
         }
 
         const percentage = goal.amount > 0 ? (spent / goal.amount) * 100 : 0;
@@ -1177,6 +1041,15 @@ function renderGoalsPage() {
 
         const card = document.createElement('div');
         card.className = 'goal-card';
+        
+        let actionsHTML = `
+            <button class="action-btn edit-goal-btn" title="Editar Meta">${ICONS.edit}</button>
+            <button class="action-btn delete-goal-btn" title="Excluir Meta">${ICONS.delete}</button>
+        `;
+        if (goal.isAuto) {
+            actionsHTML = `<div class="goal-card-auto-info" title="Esta meta é calculada automaticamente (Receitas - Dívidas).">${ICONS.info}<span>Automático</span></div>`;
+        }
+
         card.innerHTML = `
             <div class="goal-card-header">
                 <div class="goal-card-title">
@@ -1184,8 +1057,7 @@ function renderGoalsPage() {
                     <span>${SPENDING_CATEGORIES[goal.category]?.name || goal.category}</span>
                 </div>
                 <div class="goal-card-actions">
-                     <button class="action-btn edit-goal-btn" title="Editar Meta">${ICONS.edit}</button>
-                     <button class="action-btn delete-goal-btn" title="Excluir Meta">${ICONS.delete}</button>
+                     ${actionsHTML}
                 </div>
             </div>
             <div class="goal-card-body">
@@ -1201,11 +1073,15 @@ function renderGoalsPage() {
                 </div>
             </div>
         `;
-        card.querySelector('.edit-goal-btn').onclick = () => openGoalModal(goal.id);
-        card.querySelector('.delete-goal-btn').onclick = () => deleteGoal(goal.id);
+        
+        if (!goal.isAuto) {
+            card.querySelector('.edit-goal-btn').onclick = () => openGoalModal(goal.id);
+            card.querySelector('.delete-goal-btn').onclick = () => deleteGoal(goal.id);
+        }
         elements.goalsList.appendChild(card);
     });
 }
+
 
 function openGoalModal(id = null) {
     elements.goalForm.reset();
@@ -1216,7 +1092,7 @@ function openGoalModal(id = null) {
         elements.goalId.value = existingGoal.id;
         elements.goalCategory.value = existingGoal.category;
         elements.goalAmount.value = formatCurrency(existingGoal.amount);
-        elements.goalCategory.disabled = true; // Prevent changing category when editing
+        elements.goalCategory.disabled = true;
     } else {
         elements.goalModalTitle.innerHTML = `${ICONS.add} Nova Meta`;
         elements.goalId.value = '';
@@ -1236,13 +1112,17 @@ function handleSaveGoal(event) {
     const amount = parseCurrency(elements.goalAmount.value);
 
     if (!category || isNaN(amount) || amount <= 0) return;
+    
+    if (category === 'avulsos') {
+        alert('A meta para a categoria "Avulsos" é calculada automaticamente e não pode ser definida manualmente.');
+        return;
+    }
 
-    if (id) { // Editing existing goal
+    if (id) { 
         const goal = (currentMonthData.goals || []).find(g => g.id === id);
         if (goal) goal.amount = amount;
-    } else { // Adding new goal
+    } else { 
         if (!currentMonthData.goals) currentMonthData.goals = [];
-        // Prevent duplicate goals for the same category
         if (currentMonthData.goals.some(g => g.category === category)) {
             alert('Já existe uma meta para esta categoria.');
             return;
@@ -1250,16 +1130,14 @@ function handleSaveGoal(event) {
         const newGoal = { id: `goal_${Date.now()}`, category, amount };
         currentMonthData.goals.push(newGoal);
     }
-    updateUI();
-    saveData();
+    saveLocalData();
     closeGoalModal();
 }
 
 function deleteGoal(id) {
     if (confirm('Tem certeza que deseja excluir esta meta?')) {
         currentMonthData.goals = (currentMonthData.goals || []).filter(g => g.id !== id);
-        updateUI();
-        saveData();
+        saveLocalData();
     }
 }
 
@@ -1313,9 +1191,11 @@ function openAccountModal(id = null) {
         elements.accountId.value = existingAccount.id;
         elements.accountName.value = existingAccount.name;
         elements.accountBalance.value = formatCurrency(existingAccount.balance);
+        elements.accountName.disabled = true; // prevent name change
     } else {
         elements.accountModalTitle.innerHTML = `${ICONS.add} Adicionar Conta Bancária`;
         elements.accountId.value = '';
+        elements.accountName.disabled = false;
     }
     openModal(elements.accountModal);
 }
@@ -1348,16 +1228,14 @@ function handleSaveAccount(event) {
         currentMonthData.bankAccounts.push(newAccount);
     }
 
-    updateUI();
-    saveData();
+    saveLocalData();
     closeAccountModal();
 }
 
 function deleteAccount(id) {
     if (confirm('Tem certeza que deseja excluir esta conta?')) {
         currentMonthData.bankAccounts = (currentMonthData.bankAccounts || []).filter(a => a.id !== id);
-        updateUI();
-        saveData();
+        saveLocalData();
     }
 }
 
@@ -1442,7 +1320,7 @@ async function openAiModal() {
 function closeAiModal() {
     closeModal(elements.aiModal);
     elements.aiChatForm.removeEventListener('submit', handleAiChatSubmit);
-    chat = null; // Clean up chat session
+    chat = null;
 }
 
 async function handleAiChatSubmit(event) {
@@ -1454,9 +1332,6 @@ async function handleAiChatSubmit(event) {
     const userInput = elements.aiChatInput.value.trim();
     if (!userInput) return;
 
-    const initialView = document.getElementById('chat-initial-view');
-    if (initialView) initialView.remove();
-    
     appendChatMessage('user', userInput);
     elements.aiChatInput.value = '';
     
@@ -1471,13 +1346,7 @@ async function handleAiChatSubmit(event) {
     aiMessageEl.appendChild(aiBubbleEl);
     elements.aiAnalysis.appendChild(aiMessageEl);
 
-    aiBubbleEl.innerHTML = `
-        <div class="typing-indicator">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </div>
-    `;
+    aiBubbleEl.innerHTML = `<div class="typing-indicator"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
     elements.aiAnalysis.scrollTop = elements.aiAnalysis.scrollHeight;
 
     try {
@@ -1488,7 +1357,7 @@ async function handleAiChatSubmit(event) {
 
         for await (const chunk of responseStream) {
             if (firstChunk) {
-                aiBubbleEl.innerHTML = ''; // Clear the typing indicator
+                aiBubbleEl.innerHTML = ''; 
                 firstChunk = false;
             }
             fullResponseText += chunk.text;
@@ -1517,13 +1386,11 @@ function appendChatMessage(role, text) {
     
     messageEl.appendChild(bubbleEl);
     elements.aiAnalysis.appendChild(messageEl);
-
-    // Scroll to bottom
     elements.aiAnalysis.scrollTop = elements.aiAnalysis.scrollHeight;
 }
 
 function createPieChart() {
-    const allExpenses = [...(currentMonthData.expenses || []), ...(currentMonthData.shoppingItems || [])];
+    const allExpenses = [...(currentMonthData.expenses || []), ...(currentMonthData.shoppingItems || []), ...(currentMonthData.avulsosItems || [])];
     const total = allExpenses.reduce((s, e) => s + e.amount, 0);
 
     if (total === 0) return '';
@@ -1577,59 +1444,9 @@ function createPieChart() {
 }
 
 // =================================================================================
-// NOTIFICATIONS & PWA
+// PWA
 // =================================================================================
-function requestNotificationPermission() {
-    if ('Notification' in window && Notification.permission !== 'granted') {
-        Notification.requestPermission();
-    }
-}
-
-function checkAndSendNotifications() {
-    if (!('Notification' in window) || Notification.permission !== 'granted') {
-        return;
-    }
-
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const upcomingDate = new Date();
-    upcomingDate.setDate(today.getDate() + 3);
-
-    const allItems = [...(currentMonthData.expenses || []), ...(currentMonthData.shoppingItems || [])];
-    const sentNotifications = JSON.parse(localStorage.getItem('sentNotifications') || '{}');
-
-    allItems.forEach(item => {
-        if (item.paid || !item.dueDate) return;
-        
-        const dueDate = new Date(item.dueDate + 'T00:00:00');
-        const isOverdue = dueDate < today;
-        const isUpcoming = dueDate >= today && dueDate <= upcomingDate;
-
-        if (isUpcoming && !sentNotifications[`upcoming-${item.id}`]) {
-            new Notification('Lembrete de Vencimento', {
-                body: `${item.description} vence em ${formatDate(item.dueDate)}. Valor: ${formatCurrency(item.amount)}`,
-                icon: 'icon.svg'
-            });
-            sentNotifications[`upcoming-${item.id}`] = true;
-        } else if (isOverdue && !sentNotifications[`overdue-${item.id}`]) {
-            new Notification('Conta Vencida!', {
-                body: `${item.description} está vencida desde ${formatDate(item.dueDate)}. Valor: ${formatCurrency(item.amount)}`,
-                icon: 'icon.svg'
-            });
-            sentNotifications[`overdue-${item.id}`] = true;
-        }
-    });
-
-    localStorage.setItem('sentNotifications', JSON.stringify(sentNotifications));
-}
-
-
-// =================================================================================
-// INITIALIZATION
-// =================================================================================
-document.addEventListener('DOMContentLoaded', async () => {
-    populateCategorySelects();
-    // Register Service Worker
+function setupPWA() {
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('/service-worker.js')
@@ -1638,7 +1455,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    // PWA Install Prompt
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
@@ -1663,12 +1479,28 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     window.addEventListener('appinstalled', () => {
-        console.log('PWA was installed');
         const installBanner = document.getElementById('pwa-install-banner');
         if (installBanner) installBanner.classList.remove('visible');
     });
+}
+
+// =================================================================================
+// INITIALIZATION
+// =================================================================================
+document.addEventListener('DOMContentLoaded', async () => {
+    populateCategorySelects();
+    setupPWA();
+    loadGithubConfig();
+    updateSyncUI();
+
+    if (isConfigured()) {
+        await syncData(true); // Initial fetch from GitHub
+    } else {
+        loadLocalData(); // Load local data so the app is usable offline
+    }
+
+    navigateTo('home');
     
-    // Auto-format currency inputs
     const amountInputs = [
         document.getElementById('amount'), 
         document.getElementById('editAmount'),
@@ -1680,13 +1512,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             input.addEventListener('input', (e) => {
                 const target = e.target;
                 let value = target.value.replace(/\D/g, '');
-                
                 if (value) {
                     const numberValue = parseInt(value, 10) / 100;
-                    target.value = new Intl.NumberFormat('pt-BR', { 
-                        style: 'currency', 
-                        currency: 'BRL' 
-                    }).format(numberValue);
+                    target.value = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(numberValue);
                 } else {
                     target.value = '';
                 }
@@ -1694,26 +1522,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
-
-    // Attach Event Listeners
+    // --- EVENT LISTENERS ---
+    if (elements.syncBtn) {
+        elements.syncBtn.addEventListener('click', () => syncData(false));
+    }
     document.getElementById('prevMonthBtn').addEventListener('click', () => changeMonth(-1));
     document.getElementById('nextMonthBtn').addEventListener('click', () => changeMonth(1));
-    document.getElementById('openAiModalBtn').addEventListener('click', openAiModal);
+    document.getElementById('openAiModalBtnTab').addEventListener('click', openAiModal);
     document.getElementById('openAddIncomeModalBtn').addEventListener('click', () => openAddModal('income'));
     document.getElementById('openAddExpenseModalBtn').addEventListener('click', () => openAddModal('expense'));
     document.getElementById('openAddShoppingModalBtn').addEventListener('click', () => openAddModal('shopping'));
+    document.getElementById('openAddAvulsoModalBtn').addEventListener('click', () => openAddModal('avulso'));
     document.getElementById('openAddGoalModalBtn').addEventListener('click', () => openGoalModal());
     document.getElementById('openAddAccountModalBtn').addEventListener('click', () => openAccountModal());
+    document.getElementById('openGithubConfigBtn').addEventListener('click', openGithubConfigModal);
 
-    // Tab Navigation
     elements.tabBar.addEventListener('click', (e) => {
         const tabBtn = e.target.closest('.tab-btn');
-        if (tabBtn) {
+        if (tabBtn && tabBtn.dataset.view) {
             navigateTo(tabBtn.dataset.view);
         }
     });
 
-    // Segmented Control for Lancamentos
     elements.segmentedBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             elements.segmentedBtns.forEach(b => b.classList.remove('active'));
@@ -1723,15 +1553,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('incomesList').style.display = listId === 'incomesList' ? 'block' : 'none';
             document.getElementById('expensesList').style.display = listId === 'expensesList' ? 'block' : 'none';
             document.getElementById('shoppingList').style.display = listId === 'shoppingList' ? 'block' : 'none';
+            document.getElementById('avulsosList').style.display = listId === 'avulsosList' ? 'block' : 'none';
             
             document.getElementById('openAddIncomeModalBtn').style.display = listId === 'incomesList' ? 'flex' : 'none';
             document.getElementById('openAddExpenseModalBtn').style.display = listId === 'expensesList' ? 'flex' : 'none';
             document.getElementById('openAddShoppingModalBtn').style.display = listId === 'shoppingList' ? 'flex' : 'none';
+            document.getElementById('openAddAvulsoModalBtn').style.display = listId === 'avulsosList' ? 'flex' : 'none';
         });
     });
 
-
-    // Modal close/cancel listeners
     document.getElementById('closeAddModalBtn').addEventListener('click', closeAddModal);
     document.getElementById('cancelAddBtn').addEventListener('click', closeAddModal);
     document.getElementById('closeEditModalBtn').addEventListener('click', closeEditModal);
@@ -1741,48 +1571,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('cancelGoalBtn').addEventListener('click', closeGoalModal);
     document.getElementById('closeAccountModalBtn').addEventListener('click', closeAccountModal);
     document.getElementById('cancelAccountBtn').addEventListener('click', closeAccountModal);
+    document.getElementById('closeGithubConfigModalBtn').addEventListener('click', closeGithubConfigModal);
+    document.getElementById('cancelGithubConfigBtn').addEventListener('click', closeGithubConfigModal);
 
-    // Form submission listeners
+
     elements.addForm.addEventListener('submit', handleAddItem);
     elements.editForm.addEventListener('submit', handleEditItem);
     elements.goalForm.addEventListener('submit', handleSaveGoal);
     elements.accountForm.addEventListener('submit', handleSaveAccount);
+    elements.githubConfigForm.addEventListener('submit', handleSaveGithubConfig);
 
-    // Dynamic form logic
     document.getElementById('type').addEventListener('change', (e) => {
         const isFixed = e.target.value === 'fixed';
         document.getElementById('cyclicGroup').style.display = isFixed ? 'flex' : 'none';
         document.getElementById('installmentsGroup').style.display = isFixed ? 'flex' : 'none';
     });
-    
-    // Listener para sincronização entre abas
-    window.addEventListener('storage', (event) => {
-        if (event.key === 'firestore-last-update') {
-            try {
-                const { path, data } = JSON.parse(event.newValue);
-                // Atualiza o cache de dados em memória do mock
-                mockFirebase.firestore.data[path] = data;
-                // Dispara o evento customizado para que o listener onSnapshot desta aba seja acionado
-                const customEvent = new CustomEvent('firestore-update', { detail: { path, data } });
-                window.dispatchEvent(customEvent);
-                console.log(`[Realtime] Sincronizada atualização de outra aba para: ${path}`);
-            } catch (e) {
-                console.error("Erro ao processar evento de storage:", e);
-            }
-        }
-    });
-
-    // Listener para forçar a sincronização quando a aba/app se torna visível
-    document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'visible' && currentUser) {
-            console.log('[Sync] App became visible. Forcing data reload to sync.');
-            loadData();
-        }
-    });
-
-    // Attach login button listener reliably on page load
-    document.getElementById('login-button-prompt').addEventListener('click', handleLogin);
-
-    // Auth State Listener
-    mockFirebase.auth.onAuthStateChanged(updateUIForAuthState);
 });

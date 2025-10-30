@@ -1,5 +1,5 @@
 // @ts-nocheck
-const CACHE_NAME = 'finance-app-v9'; // Incremented version to force update and new caching strategy.
+const CACHE_NAME = 'finance-app-v12'; // Incremented version for GitHub sync update.
 
 // All assets needed for the app shell to function offline.
 const ASSETS_TO_CACHE = [
@@ -7,7 +7,7 @@ const ASSETS_TO_CACHE = [
     '/index.html',
     '/index.css',
     '/icon.svg',
-    '/index.tsx' 
+    '/index.tsx',
 ];
 
 // 1. Install Service Worker & Pre-cache all critical assets
@@ -50,6 +50,11 @@ self.addEventListener('activate', evt => {
 self.addEventListener('fetch', evt => {
     // We only handle GET requests
     if (evt.request.method !== 'GET') {
+        return;
+    }
+    
+    // Don't cache GitHub API requests
+    if (evt.request.url.includes('api.github.com')) {
         return;
     }
 
