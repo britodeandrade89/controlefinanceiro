@@ -732,7 +732,7 @@ function createExpenseItem(expense, type) {
     if (expense.paid && expense.paidDate) {
         dateInfo = `<span class="item-paid-date">${ICONS.check} Pago em ${formatDate(expense.paidDate)}</span>`;
     } else if (expense.dueDate) {
-        dateInfo = `<span class="item-due-date ${isOverdue ? 'overdue' : ''}">${ICONS.calendar} ${formatDate(expense.dueDate)}</span>`;
+        dateInfo = `<span class="item-due-date ${isOverdue ? 'overdue' : ''}">${ICONS.calendar} Vence em ${formatDate(expense.dueDate)}</span>`;
     }
 
     const isInvestment = expense.description?.toUpperCase().includes('INVESTIMENTO PARA VIAGEM');
@@ -742,29 +742,34 @@ function createExpenseItem(expense, type) {
 
     item.className = 'item';
     item.onclick = () => openEditModal(expense.id, type);
+    
     item.innerHTML = `
-        <div class="item-content">
-            <button class="check-btn ${expense.paid ? 'paid' : ''}" title="${checkTitle}">${ICONS.check}</button>
-            <div class="item-details">
-                <div class="item-description-wrapper">
-                    ${expense.paid ? `<div class="paid-indicator" title="Pago">${ICONS.check}</div>` : ''}
-                    <div class="item-description ${expense.paid ? 'paid' : ''}">${expense.description}</div>
-                </div>
-                <div class="item-meta">
-                    <span class="item-type type-${expense.type}">${expense.type === 'fixed' ? 'Fixo' : 'Variável'}</span>
-                    ${expense.total > 1 ? `<span class="item-installments ${isFinal ? 'final-installment' : ''}">${expense.current}/${expense.total}</span>` : ''}
-                    ${dateInfo}
+        <button class="check-btn ${expense.paid ? 'paid' : ''}" title="${checkTitle}">${ICONS.check}</button>
+        <div class="item-info-wrapper">
+            <div class="item-primary-info">
+                <div class="item-description ${expense.paid ? 'paid' : ''}">${expense.description}</div>
+                <div class="item-actions">
+                    <button class="action-btn edit-btn" title="Editar">${ICONS.edit}</button>
+                    <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
                 </div>
             </div>
-        </div>
-        <div class="item-actions">
-            <span class="item-amount expense-amount">${formatCurrency(expense.amount)}</span>
-            <button class="action-btn edit-btn" title="Editar">${ICONS.edit}</button>
-            <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
+            <div class="item-secondary-info">
+                 <div class="item-meta">
+                    <span class="item-type type-${expense.type}">${expense.type === 'fixed' ? 'Fixo' : 'Variável'}</span>
+                    ${expense.total > 1 ? `<span class="item-installments ${isFinal ? 'final-installment' : ''}">${expense.current}/${expense.total}</span>` : ''}
+                </div>
+                <div class="item-amount expense-amount">${formatCurrency(expense.amount)}</div>
+            </div>
+            <div class="item-tertiary-info">
+                ${dateInfo}
+            </div>
         </div>
     `;
+
     item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(expense.id, type); };
     item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(expense.id, type); };
+    item.querySelector('.edit-btn').onclick = (e) => { e.stopPropagation(); openEditModal(expense.id, type); };
+    
     return item;
 }
 
@@ -776,32 +781,37 @@ function createShoppingItem(itemData, type) {
     if (itemData.paid && itemData.paidDate) {
         dateInfo = `<span class="item-paid-date">${ICONS.check} Pago em ${formatDate(itemData.paidDate)}</span>`;
     } else if (itemData.dueDate) {
-        dateInfo = `<span class="item-due-date ${isOverdue ? 'overdue' : ''}">${ICONS.calendar} ${formatDate(itemData.dueDate)}</span>`;
+        dateInfo = `<span class="item-due-date ${isOverdue ? 'overdue' : ''}">${ICONS.calendar} Vence em ${formatDate(itemData.dueDate)}</span>`;
     }
+    
+    const checkTitle = itemData.paid ? 'Marcar como pendente' : 'Marcar como pago';
 
     item.className = 'item';
     item.onclick = () => openEditModal(itemData.id, type);
+    
     item.innerHTML = `
-        <div class="item-content">
-            <button class="check-btn ${itemData.paid ? 'paid' : ''}" title="${itemData.paid ? 'Marcar como pendente' : 'Marcar como pago'}">${ICONS.check}</button>
-            <div class="item-details">
-                <div class="item-description-wrapper">
-                    ${itemData.paid ? `<div class="paid-indicator" title="Pago">${ICONS.check}</div>` : ''}
-                    <div class="item-description ${itemData.paid ? 'paid' : ''}">${itemData.description}</div>
+        <button class="check-btn ${itemData.paid ? 'paid' : ''}" title="${checkTitle}">${ICONS.check}</button>
+        <div class="item-info-wrapper">
+            <div class="item-primary-info">
+                <div class="item-description ${itemData.paid ? 'paid' : ''}">${itemData.description}</div>
+                <div class="item-actions">
+                    <button class="action-btn edit-btn" title="Editar">${ICONS.edit}</button>
+                    <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
                 </div>
+            </div>
+            <div class="item-secondary-info">
                  <div class="item-meta">
                     ${dateInfo}
-                 </div>
+                </div>
+                <div class="item-amount expense-amount">${formatCurrency(itemData.amount)}</div>
             </div>
         </div>
-        <div class="item-actions">
-            <span class="item-amount expense-amount">${formatCurrency(itemData.amount)}</span>
-            <button class="action-btn edit-btn" title="Editar">${ICONS.edit}</button>
-            <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
-        </div>
     `;
+
     item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(itemData.id, type); };
     item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(itemData.id, type); };
+    item.querySelector('.edit-btn').onclick = (e) => { e.stopPropagation(); openEditModal(itemData.id, type); };
+    
     return item;
 }
 
@@ -865,7 +875,7 @@ function togglePaid(id, type) {
 
             const isInvestmentExpense = item.description?.toUpperCase().includes('INVESTIMENTO PARA VIAGEM');
 
-            // If an item is marked as PAID (it wasn't paid before, but now it is)
+            // If an item is marked as PAID (it was paid before, but now it is)
             if (item.paid) {
                 if (mainAccount) {
                     mainAccount.balance -= item.amount;
@@ -1203,7 +1213,7 @@ function handleSaveGoal(event) {
     if (!category || isNaN(amount) || amount <= 0) return;
     
     if (category === 'avulsos') {
-        alert('A meta para a categoria "Avulsos" é calculada automaticamente e não pode ser definida manualmente.');
+        alert('A meta para a categoria "Avulsos" é calculada automaticamente e não pode ser definida manually.');
         return;
     }
 
