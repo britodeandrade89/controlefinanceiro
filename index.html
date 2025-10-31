@@ -66,71 +66,65 @@
                 </div>
                  
                 <div class="summary-grid">
-                    <div class="summary-card income">
+                    <div class="summary-card total-income">
                         <div class="summary-header">
-                            <div class="summary-title">
-                                Total de Receitas
-                                <div class="tooltip-container">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-                                    <span class="tooltip-text">Soma de todas as suas fontes de renda no mês, como salários e outros recebimentos.</span>
-                                </div>
-                            </div>
-                            <div class="summary-icon"></div>
+                            <div class="summary-title">Entrada Total</div>
                         </div>
                         <div id="totalIncome" class="summary-value">R$ 0,00</div>
-                    </div>
-
-                    <div class="summary-card bills">
-                        <div class="summary-header">
-                             <div class="summary-title">
-                                Contas a Pagar
-                                <div class="tooltip-container">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-                                    <span class="tooltip-text">Soma de todas as despesas fixas e variáveis planejadas para o mês. A barra mostra o percentual já pago.</span>
-                                </div>
-                            </div>
-                            <div class="summary-icon"></div>
+                        <div class="summary-progress-bar">
+                            <div id="totalIncomeProgressBar" class="summary-progress-bar-inner"></div>
                         </div>
-                        <div id="totalBills" class="summary-value">R$ 0,00</div>
-                        <div class="bills-progress-bar">
-                            <div id="billsProgressBar" class="bills-progress-bar-inner"></div>
-                        </div>
-                        <div class="bills-details">
-                            <div><span>Pago</span><strong id="paidBills">R$ 0,00</strong></div>
-                            <div><span>Falta Pagar</span><strong id="pendingBills" class="pending-amount">R$ 0,00</strong></div>
+                        <div class="summary-details">
+                            <span id="totalIncomeSubtitle">R$ 0,00 gastos de R$ 0,00</span>
                         </div>
                     </div>
-
-                    <div class="summary-card spending">
+                    <div class="summary-card salary-income">
                         <div class="summary-header">
-                            <div class="summary-title">
-                                Gastos do Mês
-                                <div class="tooltip-container">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-                                    <span class="tooltip-text">Soma de todos os gastos não planejados, como 'Compras com Mumbuca' e despesas 'Avulsas'.</span>
-                                </div>
-                            </div>
-                            <div class="summary-icon"></div>
+                            <div class="summary-title">Entrada Salário</div>
                         </div>
-                        <div id="totalMonthlySpending" class="summary-value">R$ 0,00</div>
-                        <div class="spending-details">
-                            <div><span>Compras com Mumbuca</span><span id="shoppingSpendingDetail">R$ 0,00</span></div>
-                            <div><span>Avulsos</span><span id="avulsosSpendingDetail">R$ 0,00</span></div>
+                        <div id="salaryIncome" class="summary-value">R$ 0,00</div>
+                        <div class="summary-progress-bar">
+                            <div id="salaryIncomeProgressBar" class="summary-progress-bar-inner"></div>
+                        </div>
+                        <div class="summary-details">
+                            <span id="salaryIncomeSubtitle">R$ 0,00 gastos de R$ 0,00</span>
                         </div>
                     </div>
-
-                     <div class="summary-card balance">
+                    <div class="summary-card mumbuca-income">
                         <div class="summary-header">
-                             <div class="summary-title">
-                                Balanço Final
-                                <div class="tooltip-container">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-                                    <span class="tooltip-text">O valor que realmente sobra no final do mês. Calculado como: Receitas - Contas a Pagar - Gastos do Mês.</span>
-                                </div>
-                            </div>
-                            <div class="summary-icon"></div>
+                            <div class="summary-title">Entrada Mumbuca</div>
                         </div>
-                        <div id="finalBalance" class="summary-value balance-positive">R$ 0,00</div>
+                        <div id="mumbucaIncome" class="summary-value">R$ 0,00</div>
+                        <div class="summary-progress-bar">
+                            <div id="mumbucaIncomeProgressBar" class="summary-progress-bar-inner"></div>
+                        </div>
+                        <div class="summary-details">
+                            <span id="mumbucaIncomeSubtitle">R$ 0,00 gastos de R$ 0,00</span>
+                        </div>
+                    </div>
+                    <div class="summary-card monthly-debts">
+                        <div class="summary-header">
+                            <div class="summary-title">Dívidas do Mês</div>
+                        </div>
+                        <div id="monthlyDebts" class="summary-value">R$ 0,00</div>
+                        <div class="summary-progress-bar">
+                            <div id="monthlyDebtsProgressBar" class="summary-progress-bar-inner"></div>
+                        </div>
+                        <div class="summary-details">
+                            <span id="monthlyDebtsSubtitle">R$ 0,00 pagos de R$ 0,00</span>
+                        </div>
+                    </div>
+                    <div class="summary-card final-balance">
+                        <div class="summary-header">
+                            <div class="summary-title">Saldo Disponível</div>
+                        </div>
+                        <div id="finalBalance" class="summary-value">R$ 0,00</div>
+                        <div class="summary-progress-bar">
+                            <div id="finalBalanceProgressBar" class="summary-progress-bar-inner"></div>
+                        </div>
+                        <div class="summary-details">
+                            <span id="finalBalanceSubtitle">Salário - Dívidas - Avulsos</span>
+                        </div>
                     </div>
                 </div>
 

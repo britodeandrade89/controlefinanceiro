@@ -33,7 +33,7 @@ const SPENDING_CATEGORIES = {
     educacao: { name: 'Educação', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 2v14M8 16L4 14M16 16l4-2M12 22a4 4 0 0 0 4-4H8a4 4 0 0 0 4 4z"></path></svg>` },
     dividas: { name: 'Dívidas', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>` },
     pessoal: { name: 'Pessoal', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 16.5c-3.5 0-6.5 2-6.5 4.5h13c0-2.5-3-4.5-6.5-4.5z"></path><path d="M20.5 12c.3 0 .5.2.5.5v3c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5z"></path><path d="M3.5 12c.3 0 .5.2.5.5v3c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5z"></path></svg>` },
-    investimento: { name: 'Investimentos', icon: ICONS.investment },
+    investimento: { name: 'Investimento para Viagem', icon: ICONS.investment },
     shopping: { name: 'Compras com Mumbuca', icon: ICONS.shopping },
     avulsos: { name: 'Avulsos', icon: ICONS.variable },
     outros: { name: 'Outros', icon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>` },
@@ -57,9 +57,8 @@ const initialMonthData = {
         
         // FIXED - Unpaid
         { id: "exp_nov_15", description: "SEGURO DO CARRO (OUTUBRO)", amount: 143.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: false, cyclic: true, dueDate: '2025-11-01', paidDate: null },
-        { id: "exp_nov_8", description: "ABASTECIMENTO MENSAL", amount: 400.00, current: 10, total: 12, type: "fixed", category: "transporte", paid: false, cyclic: true, dueDate: '2025-11-05', paidDate: null },
-        { id: "exp_nov_9", description: "REMÉDIOS DO ANDRÉ", amount: 400.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
-        { id: "exp_nov_16", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (SOFISA)", amount: 1000.00, current: 2, total: 5, type: "fixed", category: "investimento", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_9", description: "REMÉDIOS DO ANDRÉ", amount: 0.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
+        { id: "exp_nov_16", description: "INVESTIMENTO PARA VIAGEM DE FÉRIAS (PaGol)", amount: 1000.00, current: 2, total: 5, type: "fixed", category: "investimento", paid: false, cyclic: false, dueDate: '2025-11-05', paidDate: null },
         { id: "exp_nov_10", description: "ALUGUEL", amount: 1300.00, current: 10, total: 12, type: "fixed", category: "moradia", paid: false, cyclic: true, dueDate: '2025-11-10', paidDate: null },
         { id: "exp_nov_11", description: "PSICÓLOGA DA MARCELLY", amount: 280.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: false, dueDate: '2025-11-10', paidDate: null },
         { id: "exp_nov_3", description: "INTERMÉDICA DO ANDRÉ", amount: 123.00, current: 10, total: 12, type: "fixed", category: "saude", paid: false, cyclic: true, dueDate: '2025-11-15', paidDate: null },
@@ -94,8 +93,13 @@ const initialMonthData = {
     ],
     shoppingItems: [],
     avulsosItems: [
-        { id: "avulso_nov_1", description: 'Abastecimento', amount: 155.84, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'transporte' },
+        { id: "avulso_nov_1", description: 'Abastecimento', amount: 155.84, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'avulsos' },
         { id: "avulso_nov_2", description: 'Estacionamento', amount: 20.00, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'transporte' },
+        { id: "avulso_nov_3", description: 'Pão e Mortadela', amount: 10.00, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'alimentacao' },
+        { id: "avulso_nov_4", description: 'Capinha e pulseira do relógio no mercado livre', amount: 94.84, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'pessoal' },
+        { id: "avulso_nov_5", description: 'Bet', amount: 100.00, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'lazer' },
+        { id: "avulso_nov_6", description: 'Pedágio da ponte', amount: 6.20, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'transporte' },
+        { id: "avulso_nov_7", description: 'Mercado', amount: 98.42, paid: true, paidDate: '2025-10-30', dueDate: null, category: 'alimentacao' },
     ],
     goals: [
         { id: "goal_nov_1", category: "shopping", amount: 900 },
@@ -139,15 +143,25 @@ let isSyncing = false;
 // =================================================================================
 const elements = {
     monthDisplay: document.getElementById('monthDisplay'),
+    
+    // Home screen cards
     totalIncome: document.getElementById('totalIncome'),
-    totalBills: document.getElementById('totalBills'),
-    paidBills: document.getElementById('paidBills'),
-    pendingBills: document.getElementById('pendingBills'),
-    billsProgressBar: document.getElementById('billsProgressBar'),
-    totalMonthlySpending: document.getElementById('totalMonthlySpending'),
-    shoppingSpendingDetail: document.getElementById('shoppingSpendingDetail'),
-    avulsosSpendingDetail: document.getElementById('avulsosSpendingDetail'),
+    totalIncomeProgressBar: document.getElementById('totalIncomeProgressBar'),
+    totalIncomeSubtitle: document.getElementById('totalIncomeSubtitle'),
+    salaryIncome: document.getElementById('salaryIncome'),
+    salaryIncomeProgressBar: document.getElementById('salaryIncomeProgressBar'),
+    salaryIncomeSubtitle: document.getElementById('salaryIncomeSubtitle'),
+    mumbucaIncome: document.getElementById('mumbucaIncome'),
+    mumbucaIncomeProgressBar: document.getElementById('mumbucaIncomeProgressBar'),
+    mumbucaIncomeSubtitle: document.getElementById('mumbucaIncomeSubtitle'),
+    monthlyDebts: document.getElementById('monthlyDebts'),
+    monthlyDebtsProgressBar: document.getElementById('monthlyDebtsProgressBar'),
+    monthlyDebtsSubtitle: document.getElementById('monthlyDebtsSubtitle'),
     finalBalance: document.getElementById('finalBalance'),
+    finalBalanceSubtitle: document.getElementById('finalBalanceSubtitle'),
+
+
+    // Lists and other elements
     incomesList: document.getElementById('incomesList'),
     expensesList: document.getElementById('expensesList'),
     shoppingList: document.getElementById('shoppingList'),
@@ -287,12 +301,16 @@ function loadLocalData() {
     const data = localStorage.getItem('financeData');
     allUserData = data ? JSON.parse(data) : {};
 
-    // Check if there is any data at all. If not, seed with the initial data.
-    if (Object.keys(allUserData).length === 0) {
-        const initialMonthKey = `${currentYear}-${currentMonth.toString().padStart(2, '0')}`;
+    const initialMonthKey = '2025-11';
+    const seedMonthInStorage = allUserData[initialMonthKey];
+
+    // Data recovery: If the seed month's data is missing or was corrupted (e.g., expenses wiped),
+    // restore it from the hardcoded template. This also handles first-time users.
+    if (Object.keys(allUserData).length === 0 || !seedMonthInStorage || !seedMonthInStorage.expenses || seedMonthInStorage.expenses.length === 0) {
+        console.log('[Data Recovery] Seeding or restoring data for November 2025.');
         allUserData[initialMonthKey] = JSON.parse(JSON.stringify(initialMonthData));
     }
-    
+
     loadDataForCurrentMonth();
 }
 
@@ -580,36 +598,71 @@ function updateUI() {
 
 function updateSummary() {
     // Calculations
-    const totalIncome = (currentMonthData.incomes || []).reduce((sum, item) => sum + item.amount, 0);
-    const totalPlannedExpenses = (currentMonthData.expenses || []).reduce((sum, item) => sum + item.amount, 0);
-    const totalPaidExpenses = (currentMonthData.expenses || []).filter(item => item.paid).reduce((sum, item) => sum + item.amount, 0);
-    const remainingToPay = totalPlannedExpenses - totalPaidExpenses;
-    
-    const totalShopping = (currentMonthData.shoppingItems || []).reduce((sum, item) => sum + item.amount, 0);
-    const totalAvulsos = (currentMonthData.avulsosItems || []).reduce((sum, item) => sum + item.amount, 0);
-    const totalMonthlySpending = totalShopping + totalAvulsos;
+    const allIncomes = currentMonthData.incomes || [];
+    const allExpenses = currentMonthData.expenses || [];
+    const allShopping = currentMonthData.shoppingItems || [];
+    const allAvulsos = currentMonthData.avulsosItems || [];
 
-    const finalBalance = totalIncome - totalPlannedExpenses - totalMonthlySpending;
+    const totalIncome = allIncomes.reduce((sum, item) => sum + item.amount, 0);
+    const salaryIncome = allIncomes
+        .filter(item => item.description.toUpperCase().includes('SALARIO'))
+        .reduce((sum, item) => sum + item.amount, 0);
+    const mumbucaIncome = allIncomes
+        .filter(item => item.description.toUpperCase().includes('MUMBUCA'))
+        .reduce((sum, item) => sum + item.amount, 0);
     
-    // Update Income Card
+    // Mumbuca spending now includes shopping list items and specific expenses
+    const mumbucaExpenses = [
+        ...allShopping,
+        ...allExpenses.filter(item => item.category === 'abastecimento_mumbuca')
+    ];
+    const totalMumbucaSpending = mumbucaExpenses.reduce((sum, item) => sum + item.amount, 0);
+
+
+    // Expenses to be paid from Salary (all expenses EXCEPT mumbuca fuel)
+    const expensesFromSalary = allExpenses.filter(item => item.category !== 'abastecimento_mumbuca');
+    const totalPlannedExpenses = expensesFromSalary.reduce((sum, item) => sum + item.amount, 0);
+    const totalPaidExpenses = expensesFromSalary
+        .filter(item => item.paid)
+        .reduce((sum, item) => sum + item.amount, 0);
+    
+    const totalAvulsosSpending = allAvulsos.reduce((sum, item) => sum + item.amount, 0);
+
+    // This is the total committed spending for the month from all sources.
+    const totalCommittedSpending = totalPlannedExpenses + totalMumbucaSpending; 
+    
+    // Final balance is Salary minus salary-paid debts and one-offs
+    const finalBalance = salaryIncome - totalPlannedExpenses - totalAvulsosSpending;
+
+    // Progress percentages
+    const totalIncomeProgress = totalIncome > 0 ? (totalCommittedSpending / totalIncome) * 100 : 0;
+    const salaryIncomeProgress = salaryIncome > 0 ? (totalPlannedExpenses / salaryIncome) * 100 : 0;
+    const mumbucaIncomeProgress = mumbucaIncome > 0 ? (totalMumbucaSpending / mumbucaIncome) * 100 : 0;
+    const monthlyDebtsProgress = totalPlannedExpenses > 0 ? (totalPaidExpenses / totalPlannedExpenses) * 100 : 0;
+    
+    // Update Total Income Card
     elements.totalIncome.textContent = formatCurrency(totalIncome);
+    elements.totalIncomeProgressBar.style.width = `${Math.min(totalIncomeProgress, 100)}%`;
+    elements.totalIncomeSubtitle.textContent = `${formatCurrency(totalCommittedSpending)} gastos de ${formatCurrency(totalIncome)}`;
 
-    // Update Bills to Pay Card
-    elements.totalBills.textContent = formatCurrency(totalPlannedExpenses);
-    elements.paidBills.textContent = formatCurrency(totalPaidExpenses);
-    elements.pendingBills.textContent = formatCurrency(remainingToPay);
+    // Update Salary Income Card
+    elements.salaryIncome.textContent = formatCurrency(salaryIncome);
+    elements.salaryIncomeProgressBar.style.width = `${Math.min(salaryIncomeProgress, 100)}%`;
+    elements.salaryIncomeSubtitle.textContent = `${formatCurrency(totalPlannedExpenses)} gastos de ${formatCurrency(salaryIncome)}`;
     
-    const billsProgress = totalPlannedExpenses > 0 ? (totalPaidExpenses / totalPlannedExpenses) * 100 : 0;
-    elements.billsProgressBar.style.width = `${billsProgress}%`;
-
-    // Update Monthly Spending Card
-    elements.totalMonthlySpending.textContent = formatCurrency(totalMonthlySpending);
-    elements.shoppingSpendingDetail.textContent = formatCurrency(totalShopping);
-    elements.avulsosSpendingDetail.textContent = formatCurrency(totalAvulsos);
-
+    // Update Mumbuca Income Card
+    elements.mumbucaIncome.textContent = formatCurrency(mumbucaIncome);
+    elements.mumbucaIncomeProgressBar.style.width = `${Math.min(mumbucaIncomeProgress, 100)}%`;
+    elements.mumbucaIncomeSubtitle.textContent = `${formatCurrency(totalMumbucaSpending)} gastos de ${formatCurrency(mumbucaIncome)}`;
+    
+    // Update Monthly Debts Card (now only shows salary-based debts)
+    elements.monthlyDebts.textContent = formatCurrency(totalPlannedExpenses);
+    elements.monthlyDebtsProgressBar.style.width = `${Math.min(monthlyDebtsProgress, 100)}%`;
+    elements.monthlyDebtsSubtitle.textContent = `${formatCurrency(totalPaidExpenses)} pagos de ${formatCurrency(totalPlannedExpenses)}`;
+    
     // Update Final Balance Card
     elements.finalBalance.textContent = formatCurrency(finalBalance);
-    elements.finalBalance.className = `summary-value ${finalBalance >= 0 ? 'balance-positive' : 'balance-negative'}`;
+    elements.finalBalanceSubtitle.textContent = `Salário - Dívidas - Avulsos`;
 }
 
 function updateMonthDisplay() {
@@ -634,7 +687,7 @@ function renderList(type, listElement, itemCreator, emptyMessage, emptyIcon, gro
             header.className = 'item-header';
             header.innerHTML = `${ICONS.fixed} Despesas Fixas`;
             listElement.appendChild(header);
-            fixed.sort((a,b) => new Date(a.dueDate) - new Date(b.dueDate)).forEach(item => listElement.appendChild(itemCreator(item)));
+            fixed.sort((a,b) => Number(b.paid) - Number(a.paid) || new Date(a.dueDate) - new Date(b.dueDate)).forEach(item => listElement.appendChild(itemCreator(item, type)));
         }
 
         if (variable.length > 0) {
@@ -642,18 +695,18 @@ function renderList(type, listElement, itemCreator, emptyMessage, emptyIcon, gro
             header.className = 'item-header';
             header.innerHTML = `${ICONS.variable} Despesas Variáveis`;
             listElement.appendChild(header);
-            variable.sort((a,b) => new Date(a.dueDate) - new Date(b.dueDate)).forEach(item => listElement.appendChild(itemCreator(item)));
+            variable.sort((a,b) => Number(b.paid) - Number(a.paid) || new Date(a.dueDate) - new Date(b.dueDate)).forEach(item => listElement.appendChild(itemCreator(item, type)));
         }
 
     } else {
-        items.forEach(item => listElement.appendChild(itemCreator(item)));
+        items.forEach(item => listElement.appendChild(itemCreator(item, type)));
     }
 }
 
-function createIncomeItem(income) {
+function createIncomeItem(income, type) {
     const item = document.createElement('div');
     item.className = 'item';
-    item.onclick = () => openEditModal(income.id, 'incomes');
+    item.onclick = () => openEditModal(income.id, type);
     item.innerHTML = `
         <div class="item-content">
             <div class="item-details">
@@ -666,11 +719,11 @@ function createIncomeItem(income) {
             <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
         </div>
     `;
-    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(income.id, 'incomes'); };
+    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(income.id, type); };
     return item;
 }
 
-function createExpenseItem(expense) {
+function createExpenseItem(expense, type) {
     const item = document.createElement('div');
     const isFinal = expense.current === expense.total;
     const isOverdue = expense.dueDate && !expense.paid && new Date(expense.dueDate) < new Date();
@@ -682,11 +735,16 @@ function createExpenseItem(expense) {
         dateInfo = `<span class="item-due-date ${isOverdue ? 'overdue' : ''}">${ICONS.calendar} ${formatDate(expense.dueDate)}</span>`;
     }
 
+    const isInvestment = expense.description?.toUpperCase().includes('INVESTIMENTO PARA VIAGEM');
+    const checkTitle = isInvestment
+        ? (expense.paid ? 'Cancelar Check-in do Investimento' : 'Fazer Check-in do Investimento')
+        : (expense.paid ? 'Marcar como pendente' : 'Marcar como pago');
+
     item.className = 'item';
-    item.onclick = () => openEditModal(expense.id, 'expenses');
+    item.onclick = () => openEditModal(expense.id, type);
     item.innerHTML = `
         <div class="item-content">
-            <button class="check-btn ${expense.paid ? 'paid' : ''}" title="${expense.paid ? 'Marcar como pendente' : 'Marcar como pago'}">${ICONS.check}</button>
+            <button class="check-btn ${expense.paid ? 'paid' : ''}" title="${checkTitle}">${ICONS.check}</button>
             <div class="item-details">
                 <div class="item-description-wrapper">
                     ${expense.paid ? `<div class="paid-indicator" title="Pago">${ICONS.check}</div>` : ''}
@@ -705,12 +763,12 @@ function createExpenseItem(expense) {
             <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
         </div>
     `;
-    item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(expense.id, 'expenses'); };
-    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(expense.id, 'expenses'); };
+    item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(expense.id, type); };
+    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(expense.id, type); };
     return item;
 }
 
-function createShoppingItem(itemData) {
+function createShoppingItem(itemData, type) {
     const item = document.createElement('div');
     const isOverdue = itemData.dueDate && !itemData.paid && new Date(itemData.dueDate) < new Date();
 
@@ -722,7 +780,7 @@ function createShoppingItem(itemData) {
     }
 
     item.className = 'item';
-    item.onclick = () => openEditModal(itemData.id, 'shoppingItems');
+    item.onclick = () => openEditModal(itemData.id, type);
     item.innerHTML = `
         <div class="item-content">
             <button class="check-btn ${itemData.paid ? 'paid' : ''}" title="${itemData.paid ? 'Marcar como pendente' : 'Marcar como pago'}">${ICONS.check}</button>
@@ -742,8 +800,8 @@ function createShoppingItem(itemData) {
             <button class="action-btn delete-btn" title="Excluir">${ICONS.delete}</button>
         </div>
     `;
-    item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(itemData.id, 'shoppingItems'); };
-    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(itemData.id, 'shoppingItems'); };
+    item.querySelector('.check-btn').onclick = (e) => { e.stopPropagation(); togglePaid(itemData.id, type); };
+    item.querySelector('.delete-btn').onclick = (e) => { e.stopPropagation(); deleteItem(itemData.id, type); };
     return item;
 }
 
@@ -978,10 +1036,13 @@ function openEditModal(id, type) {
 
     const isExpense = type === 'expenses';
     elements.editInstallmentsGroup.style.display = isExpense ? 'flex' : 'none';
-    elements.editInstallmentsInfo.style.display = isExpense ? 'flex' : 'none';
+    elements.editInstallmentsInfo.style.display = isExpense ? 'block' : 'none';
     if(isExpense) {
         elements.editCurrentInstallment.value = item.current;
         elements.editTotalInstallments.value = item.total;
+    } else {
+        elements.editInstallmentsGroup.style.display = 'none';
+        elements.editInstallmentsInfo.style.display = 'none';
     }
 
     openModal(elements.editModal);
@@ -1009,11 +1070,15 @@ function renderGoalsPage() {
     const userGoals = currentMonthData.goals || [];
     elements.goalsList.innerHTML = '';
 
-    // Calculate dynamic "Avulsos" goal
-    const totalIncome = (currentMonthData.incomes || []).reduce((sum, item) => sum + item.amount, 0);
-    const totalDividas = (currentMonthData.expenses || []).filter(item => item.category === 'dividas').reduce((sum, item) => sum + item.amount, 0);
-    const avulsosGoalAmount = totalIncome - totalDividas;
-    const avulsosAutoGoal = { id: 'goal_auto_avulsos', category: 'avulsos', amount: avulsosGoalAmount, isAuto: true };
+    const allIncomes = currentMonthData.incomes || [];
+    const allExpenses = currentMonthData.expenses || [];
+    const totalSalaryIncome = allIncomes
+        .filter(item => item.description.toUpperCase().includes('SALARIO'))
+        .reduce((sum, item) => sum + item.amount, 0);
+    const plannedExpensesFromSalary = allExpenses.filter(item => item.category !== 'abastecimento_mumbuca');
+    const totalPlannedExpensesFromSalary = plannedExpensesFromSalary.reduce((sum, item) => sum + item.amount, 0);
+    const avulsosBudget = totalSalaryIncome - totalPlannedExpensesFromSalary;
+    const avulsosAutoGoal = { id: 'goal_auto_avulsos', category: 'avulsos', amount: avulsosBudget, isAuto: true };
 
     const allGoals = [avulsosAutoGoal, ...userGoals];
 
@@ -1024,17 +1089,41 @@ function renderGoalsPage() {
 
     allGoals.forEach(goal => {
         let spent = 0;
-        if (goal.category === 'avulsos') {
-            spent = (currentMonthData.avulsosItems || []).reduce((sum, item) => sum + item.amount, 0);
+        
+        if (goal.category === 'shopping') {
+            // The 'Compras com Mumbuca' goal ONLY tracks items from the dedicated shopping list.
+            spent = (currentMonthData.shoppingItems || [])
+                .reduce((sum, item) => sum + item.amount, 0);
+        } else if (goal.category === 'avulsos') {
+            // The 'Avulsos' goal tracks the sum of ALL items in the avulsosItems list.
+            spent = (currentMonthData.avulsosItems || [])
+                .reduce((sum, item) => sum + item.amount, 0);
+        } else if (goal.category === 'abastecimento_mumbuca') {
+            // This goal tracks ALL entered items (paid or not) from any list with the matching category.
+            const allSpendingItems = [
+                ...(currentMonthData.expenses || []),
+                ...(currentMonthData.shoppingItems || []),
+                ...(currentMonthData.avulsosItems || [])
+            ];
+            spent = allSpendingItems
+                .filter(item => item.category === goal.category)
+                .reduce((sum, item) => sum + item.amount, 0);
         } else {
-            const relevantExpenses = (currentMonthData.expenses || []).filter(e => e.category === goal.category);
-            const relevantShopping = (currentMonthData.shoppingItems || []).filter(s => s.category === goal.category);
-            spent = [...relevantExpenses, ...relevantShopping].reduce((sum, item) => sum + item.amount, 0);
+            // All other goals track only PAID items.
+            const allPaidItems = [
+                ...(currentMonthData.expenses || []),
+                ...(currentMonthData.shoppingItems || []),
+                ...(currentMonthData.avulsosItems || [])
+            ].filter(item => item.paid);
+            
+            spent = allPaidItems
+                .filter(item => item.category === goal.category)
+                .reduce((sum, item) => sum + item.amount, 0);
         }
+
 
         const percentage = goal.amount > 0 ? (spent / goal.amount) * 100 : 0;
         const remaining = goal.amount - spent;
-
         let progressBarClass = 'safe';
         if (percentage > 100) progressBarClass = 'danger';
         else if (percentage > 75) progressBarClass = 'warning';
